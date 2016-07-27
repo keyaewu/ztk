@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="7c78b7b6-e439-4933-8a73-46ea9a75fc0f" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Menu item - News</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="customtext">News</field>
+        <field name="anchorstyleclass">list-group-item</field>
+        <field name="contentsectionselection">
+            <title>News (news)</title>
+            <value>news</value>
+        </field>
+    </content>
+</escenic>

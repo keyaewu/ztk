@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="c66948fb-c432-413e-85ed-a965e20507f6" type="wf_datasource" state="published">
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Data source - Tag related stories</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"no","priority":"no","24HoursBlock":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"maxItems":"","endDate":"","publishingPeriod":"any","excludingTags":[],"section":"","sort":"relevance","$$hashKey":"00G","includingTags":[],"tagInclusionType":"all","sectionSelectionPolicy":"Category","sourceType":"tag","publication":"","contentTypes":["story"],"startDate":"","includeSubsections":"yes"}],"$$hashKey":"00E","applySettings":"no"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+    </content>
+</escenic>

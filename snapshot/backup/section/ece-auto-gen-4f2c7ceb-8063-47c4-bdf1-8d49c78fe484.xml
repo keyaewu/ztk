@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="config.default.tag.main.messi" source="ece-auto-gen" sourceid="4f2c7ceb-8063-47c4-bdf1-8d49c78fe484" name="Messi tag template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="7456ad88-1055-4039-9ccb-2d352d68bc33" unique-name="config.default.tag.main.football"/>
+        <unique-name>config.default.tag.main.messi</unique-name>
+        <directory>Messi_tag_template</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

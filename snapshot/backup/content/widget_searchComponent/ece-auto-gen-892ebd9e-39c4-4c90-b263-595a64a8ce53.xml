@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="892ebd9e-39c4-4c90-b263-595a64a8ce53" type="widget_searchComponent" state="published">
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Results order</field>
+        <field name="view">
+            <value>searchOrder</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

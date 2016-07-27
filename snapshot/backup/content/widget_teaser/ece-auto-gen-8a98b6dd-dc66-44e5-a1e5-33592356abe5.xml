@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8a98b6dd-dc66-44e5-a1e5-33592356abe5" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.tag.main.football" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Related picture</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"maxItems":"1","sourceType":"related","relationGroups":["lead","related"],"contentTypes":["picture","gallery"],"$$hashKey":"00G"}],"applySettings":"yes","$$hashKey":"00E"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="teaserstyleclass">thumbnail</field>
+        <field name="bodyelements">
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="mediacontenttypes">
+            <value>
+                <value>gallery</value>
+            </value>
+            <value>
+                <value>picture</value>
+            </value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+        </field>
+        <field name="imageaspectratio">
+            <value>LANDSCAPE</value>
+        </field>
+        <field name="imagemode">
+            <value>slideshow</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.class.updatealert=updatealert
+element.markup.inline.close-link-style=inline-close
+element.markup.tag.readmore=p
+element.markup.textsize.text-big=text-big
+element.markup.tag.overline=p
+element.markup.tag.title=h4
+element.markup.class.author=author
+element.markup.tag.summary=p
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.updatealert=strong
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.markup.class.leadtext=leadtext
+element.markup.tag.picture=div
+element.markup.textsize.text-small=text-small
+element.markup.textsize.kicker=text-smaller
+element.markup.textsize.text-bigger=text-bigger
+element.markup.tag.share=div
+element.markup.tag.leadtext=p
+element.markup.class.slideshow=slideshow
+element.markup.tag.timestamp=strong
+element.markup.tag.kicker=p
+element.markup.class.comments=comments
+element.markup.tag.comments=p
+element.markup.class.title=title
+element.markup.class.summary=summary
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.kicker=kicker
+element.markup.class.relatedelements=list-unstyled
+element.markup.tag.relatedelements=ul
+element.markup.tag.slideshow=div
+element.markup.class.share=share
+element.markup.class.subtitle=subtitle
+element.markup.class.picture=picture
+element.markup.tag.author=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.subtitle=p
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.overline=overline
+element.markup.class.picture-caption=picture-caption
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.readmore=readmore
+element.markup.class.timestamp=timestamp</field>
+    </content>
+</escenic>

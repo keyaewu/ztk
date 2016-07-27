@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="3cf06353-4a5f-4b73-afa3-46337d4df116" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.tag" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="c66948fb-c432-413e-85ed-a965e20507f6"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="54fe7348-9278-4773-82d2-5f57081dc991"/>
+        <priority value="0"/>
+        <field name="title">Latest tagged items</field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="maxitems">2</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[],"applySettings":"yes"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="renderingmode">
+            <value>delegateView</value>
+        </field>
+        <field name="gridstyle">{"wrapperClass":"row","gridItems":[{"style":"A"}],"repeatGrid":"2","styles":[{"classes":"","name":"A","$$hashKey":"004"}],"gridEditing":"basic"}</field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

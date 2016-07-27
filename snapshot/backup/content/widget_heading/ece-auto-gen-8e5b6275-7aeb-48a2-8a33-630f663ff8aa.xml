@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8e5b6275-7aeb-48a2-8a33-630f663ff8aa" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading - Entertainment</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="contentsectionselection">
+            <title>Entertainment (entertainment)</title>
+            <value>entertainment</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>h2</value>
+        </field>
+    </content>
+</escenic>

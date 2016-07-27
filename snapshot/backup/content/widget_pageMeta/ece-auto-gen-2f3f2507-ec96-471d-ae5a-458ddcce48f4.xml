@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="2f3f2507-ec96-471d-ae5a-458ddcce48f4" type="widget_pageMeta" state="published">
+        <section-ref unique-name="config.default.tag"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config.default.article.type.gallery"/>
+        <section-ref unique-name="config.default.article"/>
+        <section-ref unique-name="config.default" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Common meta</field>
+        <field name="metakeyattribute">
+            <value>property</value>
+        </field>
+        <field name="metainfo">
+            <value>
+                <field name="key">fb:app_id</field>
+                <field name="content">${sectionParams.facebook.app.id}</field>
+            </value>
+            <value>
+                <field name="key">fb:admins</field>
+                <field name="content">${sectionParams.facebook.admins}</field>
+            </value>
+        </field>
+    </content>
+</escenic>

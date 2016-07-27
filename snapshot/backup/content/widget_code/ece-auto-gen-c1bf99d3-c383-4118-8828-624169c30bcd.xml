@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="c1bf99d3-c383-4118-8828-624169c30bcd" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Dummy menu</field>
+        <field name="code">&lt;ul class="nav nav-pills pull-right"&gt;&lt;li&gt;&lt;a href="#"&gt;Privacy policy&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
+      href="#"&gt;Contact us&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a href="#"&gt;Sitemap&lt;/a&gt;&lt;/li&gt;&lt;li&gt;&lt;a
+      class="back-to-top" title="Back to top" href="#"&gt;Back to top &lt;span class="glyphicon glyphicon-arrow-up"&gt;&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;&lt;/ul&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="2c7b0aca-f107-40e9-a6fb-401976ddb771" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="76e2de41-aec0-4b76-a5ab-73bf45d6e002"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="ab2da92b-58c9-41ee-a1cb-b5ba1496e5b1">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>last</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="3a079968-7d03-45d2-a6a4-b0a1d3219787">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>1</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="31924dc2-e33b-4d0e-b36e-43278b008fd3">
+            <field name="selectortype">
+                <value>contentType</value>
+            </field>
+            <field name="contenttype">
+                <value>story</value>
+            </field>
+        </relation>
+        <priority value="0"/>
+        <field name="title">View picker</field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="maxitems">10</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"yes","priority":"yes","endDate":"","maxItems":""},"sourceDefinition":[]}</field>
+        <field name="renderingmode">
+            <value>iterateView</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>div</value>
+        </field>
+        <field name="customstyleclass">row grid-cell</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="b28b39d3-0641-408a-a5fe-483f41304934" type="widget_teaserView" state="published">
+        <section-ref unique-name="config.default.section.international" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Horizontal 100% [Title + Lead | Media 20% R]</field>
+        <field name="editorialselection">true</field>
+        <field name="topelements">
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="bodyelements">
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>leadtext</value>
+            </value>
+        </field>
+        <field name="mediacontenttypes">
+            <value>
+                <value>picture</value>
+            </value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>lead</value>
+            </value>
+            <value>
+                <value>related</value>
+            </value>
+            <value>
+                <value>teaser</value>
+            </value>
+        </field>
+        <field name="imageaspectratio">
+            <value>PORTRAIT</value>
+        </field>
+        <field name="imagewidth">
+            <value>20</value>
+        </field>
+        <field name="imageposition">
+            <value>right</value>
+        </field>
+        <field name="showcaption">
+            <value>hide</value>
+        </field>
+        <field name="widgetproperties">element.markup.class.picture-caption=picture-caption
+element.markup.tag.share=div
+element.markup.class.updatealert=updatealert
+element.markup.tag.leadtext=p
+element.markup.textsize.text-big=text-big
+element.markup.class.subtitle=subtitle
+element.markup.tag.updatealert=strong
+element.markup.textsize.kicker=text-smaller
+element.markup.tag.relatedelements=ul
+element.markup.tag.comments=p
+element.markup.class.overline=overline
+element.markup.tag.summary=p
+element.markup.class.slideshow=slideshow
+element.markup.class.readmore=readmore
+element.markup.class.kicker=kicker
+element.markup.tag.timestamp=strong
+element.markup.tag.author=p
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.picture=div
+element.markup.tag.subtitle=p
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.markup.class.title=title
+element.markup.class.leadtext=leadtext
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.class.summary=summary
+element.markup.class.relatedelements=list-unstyled
+element.markup.class.shorttitle=shorttitle
+element.markup.class.comments=comments
+element.markup.tag.overline=p
+element.markup.tag.slideshow=div
+element.markup.textsize.text-small=text-small
+element.markup.class.author=author
+element.markup.class.picture=picture
+element.markup.tag.readmore=p
+element.markup.tag.title=h4
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.timestamp=timestamp
+element.markup.textsize.text-bigger=text-bigger
+element.markup.class.share=share
+element.markup.inline.close-link-style=inline-close
+element.markup.textsize.text-smallest=text-smallest
+element.markup.tag.kicker=p</field>
+    </content>
+</escenic>

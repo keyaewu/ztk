@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="35885a76-5d4f-41f4-bd67-2734ddd5748c" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Menu item - Sports</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="customtext">Sports</field>
+        <field name="anchorstyleclass">list-group-item</field>
+        <field name="contentsectionselection">
+            <title>Sports (sports)</title>
+            <value>sports</value>
+        </field>
+    </content>
+</escenic>

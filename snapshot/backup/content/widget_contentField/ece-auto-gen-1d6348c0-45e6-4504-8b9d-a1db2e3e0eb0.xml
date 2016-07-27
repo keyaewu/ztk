@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="1d6348c0-45e6-4504-8b9d-a1db2e3e0eb0" type="widget_contentField" state="published">
+        <section-ref unique-name="config.default.tag.main.football" home-section="true"/>
+        <section-ref unique-name="config.default.tag"/>
+        <priority value="0"/>
+        <field name="title">Topic heading</field>
+        <field name="field">
+            <value>title</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="fieldwrappertype">
+            <value>custom</value>
+        </field>
+        <field name="fieldwrapper">
+            <value>h2</value>
+        </field>
+        <field name="fieldstyleclass">no-margin-top tag-heading</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">field.markup.class.title=title
+contentType=story
+field.markup.class.subtitle=subtitle
+field.markup.tag.subtitle=h3
+field.markup.class.body=body
+field.markup.tag.body=p
+field.markup.class.shorttitle=shorttitle
+field.markup.tag.shorttitle=h3
+field.format.date=EEE, d MMM yyyy HH:mm:ss
+field.markup.class.leadtext=leadtext
+field.markup.tag.leadtext=h5
+field.markup.tag.title=h1</field>
+    </content>
+</escenic>

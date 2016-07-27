@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="7df2767c-d24f-49d9-8b47-708bc6dce1d8" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">theme.css</field>
+        <field name="code">&lt;style type="text/css"&gt;
+
+      /* Bootstrap overrides */
+
+      .navbar {
+      margin-top: 20px;
+      }
+
+      .popular .tab-content,
+      .top-stories .tab-content {
+      margin-top: 20px;
+      margin-bottom: 15px;
+      }
+
+      .collapse {
+      position: static;
+      }
+
+      /* New styles */
+
+      .inverse {
+      display: inline-block;
+      padding: 0 4px;
+      font-weight: bold;
+      color: #ffffff;
+      text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+      white-space: nowrap;
+      vertical-align: baseline;
+      background-color: #333333;
+      border-radius: 3px;
+      }
+
+      /* Video and thumbnail grids */
+
+      .videos .nav-pills,
+      .thumbnails .nav-pills {
+      margin-top: 10px;
+      margin-bottom: 10px;
+      }
+
+      .videos .thumbnail,
+      .thumbnails .thumbnail {
+      margin-bottom: 20px;
+      }
+
+      .videos .thumbnail .leadtext,
+      .videos .thumbnail .title {
+      padding-left: 9px;
+      padding-right: 9px;
+      }
+
+      .videos .thumbnail .btn {
+      margin-left: 9px;
+      margin-bottom: 9px;
+      }
+
+      /* Spots */
+
+      .spot {
+      margin-bottom: 19px;
+      position: relative;
+      overflow: hidden;
+      }
+
+      .picture-caption h4,
+      .picture-caption p {
+      line-height: 20px;
+      color: #ffffff;
+      }
+
+      .picture-caption h4 {
+      margin: 0 0 5px;
+      }
+
+      /* Footer styles */
+
+      footer {
+      margin: 70px 0 40px;
+      min-height: 40px;
+      padding: 10px 20px 0 20px;
+      background-color: #eeeeee;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      *zoom: 1;
+      }
+
+      footer hr {
+      border-top-color: #dddddd;
+      border-bottom: none;
+      }
+
+      footer .nav &gt; li &gt; a {
+      padding: 0 15px 20px 15px;
+      }
+
+      /* Inverse style for captions on light slideshow pictures */
+
+      .inverse-caption .carousel-caption {
+      color: black;
+      text-shadow: 0 1px 2px rgba(255, 255, 255, 1);
+      }
+
+      .inverse-caption .carousel-indicators li {
+      border: 1px solid #000;
+      }
+
+      .inverse-caption .carousel-indicators .active {
+      background-color: #000;
+      }
+
+      /*fix for bootstrap label class within a link*/
+     .label &gt; a {
+     color: #ffffff;
+     }
+
+     .label &gt; a:hover {
+      text-decoration: none;
+      }
+
+      .tag-heading {
+       text-transform: uppercase;
+       }
+
+       /*Megadropdown hover effect*/
+       ul.nav li.megadropdown ul.dropdown-menu {
+       border: none;
+       }
+       ul.nav li.megadropdown:hover {
+       background-color: #FFFFFF;
+       z-index: 15000;
+       }
+      /* Custom common style classes*/
+      .img-container {
+      line-height: 5px;
+      position: relative;
+      }
+
+      .meta li {
+      border-right: 1px solid #CCCCCC;
+      }
+
+      .meta li:last-child {
+      border-right: none;
+      }
+      /*End of custom common style classes*/
+
+      /* Style classes to override bootstrap default behavior */
+      .media,
+      .media-body {
+      overflow: visible !important;
+      }
+
+      /* Added clearfix in media and media-body instead of overflow hidden */
+      .media,
+      .media-body {
+      *zoom: 1;
+      }
+
+      .media:before,
+      .media-body:before,
+      .media:after,
+      .media-body:after {
+      display: table;
+      line-height: 0;
+      content: "";
+      }
+
+      .media:after,
+      .media-body:after {
+      clear: both;
+      }
+
+      /*Override media pull-left/pull-right for low resolution device screens*/
+      .media .pull-left {
+      margin-right: 10px;
+      }
+
+      .media .pull-right {
+      margin-left: 10px;
+      }
+      /*End of style classes to override bootstrap default behavior*/
+
+      &lt;/style&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

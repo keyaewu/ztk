@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="3964b5f8-5e77-448b-a3b1-666c05972eeb" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.tag.main.football"/>
+        <section-ref unique-name="config.default.tag" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Tag heading</field>
+        <field name="headingsource">
+            <value>contextTag</value>
+        </field>
+        <field name="omitlink">true</field>
+        <field name="widgetwrapper">
+            <value>h2</value>
+        </field>
+        <field name="customstyleclass">no-margin-top tag-heading</field>
+    </content>
+</escenic>

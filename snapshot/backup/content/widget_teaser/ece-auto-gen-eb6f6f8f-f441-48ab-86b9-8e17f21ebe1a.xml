@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="eb6f6f8f-f441-48ab-86b9-8e17f21ebe1a" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="14463936-47c0-415b-8772-4f3b7255c4de"/>
+        <priority value="0"/>
+        <field name="title">Teasers</field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="offset">2</field>
+        <field name="maxitems">2</field>
+        <field name="datasource">{"sourceGroups":[{"applySettings":"no","sourceDefinition":[]}],"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"yes","priority":"yes","publishingPeriod":"any","endDate":"","maxItems":""},"sourceDefinition":[]}</field>
+        <field name="topelements">
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="bodyelements">
+            <value>
+                <value>leadtext</value>
+            </value>
+            <value>
+                <value>share</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>leadtext</value>
+                </field>
+                <field name="htmltag">
+                    <value>span</value>
+                </field>
+            </value>
+            <value>
+                <field name="element">
+                    <value>title</value>
+                </field>
+                <field name="styleclass">media-heading</field>
+            </value>
+            <value>
+                <field name="element">
+                    <value>share</value>
+                </field>
+                <field name="styleclass">pull-right</field>
+                <field name="htmltag">
+                    <value>span</value>
+                </field>
+            </value>
+        </field>
+        <field name="mediacontenttype">
+            <value>picture</value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+        </field>
+        <field name="imagelink">
+            <value>article</value>
+        </field>
+        <field name="imagewidth">
+            <value>25</value>
+        </field>
+        <field name="imageposition">
+            <value>left</value>
+        </field>
+        <field name="showrelationicons">false</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.class.updatealert=updatealert
+element.markup.tag.readmore=p
+element.markup.textsize.text-big=text-big
+element.markup.tag.overline=p
+element.markup.tag.title=h4
+element.markup.class.author=author
+element.markup.tag.summary=p
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.updatealert=strong
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.markup.class.leadtext=leadtext
+element.markup.tag.picture=div
+element.markup.textsize.text-small=text-small
+element.markup.textsize.kicker=text-smaller
+element.markup.textsize.text-bigger=text-bigger
+element.markup.tag.share=div
+element.markup.tag.leadtext=p
+element.markup.class.slideshow=slideshow
+element.markup.tag.timestamp=strong
+element.markup.tag.kicker=p
+element.markup.class.comments=comments
+element.markup.tag.comments=p
+element.markup.class.title=title
+element.markup.class.summary=summary
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.kicker=kicker
+element.markup.class.relatedelements=relatedelements
+element.markup.tag.relatedelements=p
+element.markup.tag.slideshow=div
+element.markup.class.share=share
+element.markup.class.subtitle=subtitle
+element.markup.class.picture=picture
+element.markup.tag.author=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.subtitle=p
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.overline=overline
+element.markup.class.picture-caption=picture-caption
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.readmore=readmore
+element.markup.class.timestamp=timestamp</field>
+    </content>
+</escenic>

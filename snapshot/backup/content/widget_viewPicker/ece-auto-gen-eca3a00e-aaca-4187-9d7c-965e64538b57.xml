@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="eca3a00e-aaca-4187-9d7c-965e64538b57" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.tag.main.messi" home-section="true"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="d3579d76-5e04-4600-bfe1-adf9ed08f3c5"/>
+        <priority value="0"/>
+        <field name="title">Location related stories</field>
+        <field name="maxitems">3</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"maxItems":"","endDate":"","excludingTags":[],"publishingPeriod":"any","section":"","sort":"relevance","includingTags":["tag:main.ewf,2014:sao_paulo"],"$$hashKey":"00G","tagInclusionType":"all","sectionSelectionPolicy":"Category","sourceType":"tag","publication":"","contentTypes":[],"includeSubsections":"yes","startDate":""}],"applySettings":"yes","$$hashKey":"00E"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="gridstyle">{"wrapperClass":"row","gridItems":[{"style":"A"}],"repeatGrid":"2","styles":[{"classes":"","name":"A","$$hashKey":"004"}],"gridEditing":"basic"}</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

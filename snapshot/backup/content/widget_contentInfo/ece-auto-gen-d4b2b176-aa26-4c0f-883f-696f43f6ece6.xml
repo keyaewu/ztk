@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="d4b2b176-aa26-4c0f-883f-696f43f6ece6" type="widget_contentInfo" state="published">
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Author</field>
+        <field name="information">
+            <value>author</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>li</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">info.markup.class.section=section
+contentTags.span.class=label label-default
+info.markup.tag.expireDate=p
+info.markup.tag.relativeUri=p
+info.markup.class.expireDate=expired-date
+info.markup.tag.articleType=p
+info.markup.class.publication=publication
+info.markup.tag.source=p
+info.markup.tag.stateName=p
+info.markup.class.contentTags=list-inline
+info.markup.tag.authors=p
+info.markup.tag.sortDate=p
+info.markup.class.createdDate=created-date
+info.markup.class.author=author
+info.markup.tag.stateChanged=p
+info.format.expireDate=dd MMM yyyy HH:mm zz
+info.markup.tag.ownerUrl=p
+info.markup.class.sourceId=source-id
+info.markup.class.activatedDate=activated-date
+info.format.firstPublishedDate=dd MMM yyyy HH:mm zz
+info.markup.tag.section=p
+info.markup.tag.contentTags=ul
+info.markup.tag.publication=p
+info.markup.class.id=id
+info.markup.tag.createdDate=p
+info.markup.class.publishedDate=published-date
+info.markup.tag.url=p
+info.markup.tag.sectionsList=p
+info.format.activatedDate=dd MMM yyyy HH:mm zz
+info.markup.class.stateName=state-name
+info.markup.tag.lastModifiedDate=p
+info.format.publishedDate=dd MMM yyyy HH:mm zz
+info.format.sortDate=yyyy-MM-dd
+info.format.createdDate=dd MMM yyyy HH:mm zz
+info.markup.class.stateChanged=state-changed
+info.markup.tag.id=p
+info.markup.class.firstPublishedDate=first-published-date
+info.format.lastModifiedDate=dd MMM yyyy HH:mm zz
+info.markup.tag.author=p
+info.markup.class.source=source
+info.markup.class.relativeUri=relative-uri
+info.markup.tag.sourceId=p
+info.markup.class.lastModifiedDate=last-modified-date
+info.markup.class.sortDate=sort-date
+info.markup.class.url=url
+info.markup.class.sectionsList=sections-list
+info.markup.tag.activatedDate=p
+info.markup.class.authors=authors
+info.markup.class.articleType=article-type
+info.markup.class.ownerUrl=owner-url
+info.markup.tag.publishedDate=p
+info.markup.tag.firstPublishedDate=p</field>
+    </content>
+</escenic>

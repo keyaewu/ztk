@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="439b9cdd-a1a0-4243-8ae7-ad87e388a839" type="widget_pageMeta" state="published">
+        <section-ref unique-name="config.default.tag" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Tag page meta</field>
+        <field name="metainfo">
+            <value>
+                <field name="key">robots</field>
+                <field name="content">${meta.searchbot.index} ${meta.searchbot.follow}</field>
+            </value>
+            <value>
+                <field name="key">description</field>
+                <field name="content">${article.fields.leadtext}</field>
+                <field name="fallbackcontent">${tag.description}</field>
+            </value>
+        </field>
+    </content>
+</escenic>

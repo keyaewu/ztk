@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="4ff9b2ab-5a46-4c80-9537-f24208545164" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.tag.main.messi"/>
+        <section-ref unique-name="config.default.tag.main.football" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Most read</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Most read</field>
+        <field name="widgetwrapper">
+            <value>h3</value>
+        </field>
+        <field name="customstyleclass">inverse</field>
+    </content>
+</escenic>

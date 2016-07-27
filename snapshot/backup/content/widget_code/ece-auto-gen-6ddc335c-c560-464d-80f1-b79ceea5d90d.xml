@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="6ddc335c-c560-464d-80f1-b79ceea5d90d" type="widget_code" state="published">
+        <section-ref unique-name="config.default" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Article share script</field>
+        <field name="view">
+            <value>jsp</value>
+        </field>
+        <field name="path">/template/code/shareScripts.jsp</field>
+        <field name="widgetwrapper">
+            <value>div</value>
+        </field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

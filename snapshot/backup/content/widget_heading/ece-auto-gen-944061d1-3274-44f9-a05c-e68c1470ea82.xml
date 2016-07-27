@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="944061d1-3274-44f9-a05c-e68c1470ea82" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading widget - sections</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">SECTIONS</field>
+        <field name="widgetwrapper">
+            <value>h5</value>
+        </field>
+        <field name="customstyleclass">text-muted</field>
+    </content>
+</escenic>

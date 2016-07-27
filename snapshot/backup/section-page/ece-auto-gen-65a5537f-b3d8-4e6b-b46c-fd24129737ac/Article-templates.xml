@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="65a5537f-b3d8-4e6b-b46c-fd24129737ac" unique-name="config.default.article" name="Article templates" layout-name="config" action="remove">
+        <area name="meta">
+            <content-ref source="ece-auto-gen" sourceid="2f3f2507-ec96-471d-ae5a-458ddcce48f4">
+                <field name="title">Common meta</field>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="edd8d8f0-f116-456b-bf03-eca9f7ac446a">
+                <field name="title">Article page meta</field>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="23d29611-ef0d-4ffa-a316-4e7d336ad50e">
+                <field name="title">Facebook open graph meta</field>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="bb4e3ec3-5f64-4e0e-a403-db740cdbe21a">
+                <field name="title">Twitter card meta</field>
+            </content-ref>
+        </area>
+    </section-page>
+</escenic>

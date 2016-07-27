@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="ab799076-109a-40b1-9d20-d526c45ca21a" type="widget_menu" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Menu</field>
+        <field name="menuname">main</field>
+        <field name="menulevel">1</field>
+        <field name="enabledropdown">true</field>
+        <field name="wrapwithnavbar">false</field>
+        <field name="utilcacheenabled">false</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">nav.space.divider.class=nav-divider
+nav.space.text.class=navbar-text
+dropdown.space.divider.class=divider
+dropdown.space.text.class=dropdown-header</field>
+    </content>
+</escenic>

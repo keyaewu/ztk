@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="4f2c7ceb-8063-47c4-bdf1-8d49c78fe484" unique-name="config.default.tag.main.messi" name="Messi tag template" layout-name="config" action="remove">
+        <area name="aside">
+            <content-ref source="ece-auto-gen" sourceid="3f70259c-8f13-465b-b145-4cfefc25925a">
+                <field name="title">Related persons</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="70bb32ee-1839-4f84-a428-9fb0caaa7a38">
+                <field name="title">Person related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="82f01aab-eea3-4f5e-abea-86697ca9f643">
+                <field name="title">Related events</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="fcf52691-fad4-4543-982f-8061a0ddab6b">
+                <field name="title">Event related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="1c12a1d6-abe7-445b-ad79-518aa9fcd435">
+                <field name="title">Related locations</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="eca3a00e-aaca-4187-9d7c-965e64538b57">
+                <field name="title">Location related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="contextSectionGroup" label="Context Section">
+                <area name="contextSection-area">
+                    <content-ref source="ece-auto-gen" sourceid="9ae740b2-4f57-4d00-ba51-7aecda83491d">
+                        <field name="title">Latest stories</field>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="0eb71b8e-d1a5-4806-a5c3-f57202c15668">
+                        <field name="title">Latest in home section of topic article</field>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="4ff9b2ab-5a46-4c80-9537-f24208545164">
+                        <field name="title">Most read</field>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="b3c4adfc-2d6f-4953-a1b9-e89c39e1d395">
+                        <field name="title">Most read in home section of topic article</field>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="reference">
+                        <value>articleHome</value>
+                    </field>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

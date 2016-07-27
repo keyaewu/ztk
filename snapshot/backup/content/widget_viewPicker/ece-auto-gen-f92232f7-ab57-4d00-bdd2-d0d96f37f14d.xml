@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="f92232f7-ab57-4d00-bdd2-d0d96f37f14d" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.section.international" home-section="true"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="e329535c-93a0-4b42-ab69-2fe48b5fa1d6">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>odd</value>
+            </field>
+        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="fb679e1f-1b6d-4972-82fd-fa3d5b3cdc70">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>even</value>
+            </field>
+        </relation>
+        <priority value="0"/>
+        <field name="title">View Picker</field>
+        <field name="view">
+            <value>default</value>
+        </field>
+        <field name="disableviewadjustment">false</field>
+        <field name="sourcereference">
+            <value>inline</value>
+        </field>
+        <field name="maxitems">10</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","sort":"publish_date_dec","deduplication":"yes","priority":"yes","startDate":"","deskedSettingsPolicy":"noFiltersDeskedFirst"},"sourceDefinition":[{"maxItems":"","groupName":"curatedView","sectionSelectionPolicy":"Category","offset":"","sourceType":"desked","publication":"","section":"international","groupInstance":"1","contentTypes":["story"],"$$hashKey":"00D"}]}</field>
+        <field name="renderingmode">
+            <value>iterateView</value>
+        </field>
+        <field name="gridstyle">{"wrapperClass":"row","defaultStyle":"B","gridItems":[{"style":"A","$$hashKey":"00B"},{"style":"B","$$hashKey":"00D"},{"style":"B","$$hashKey":"01B"},{"style":"B","$$hashKey":"01F"},{"style":"B","$$hashKey":"01H"},{"style":"B","$$hashKey":"01J"}],"repeatGrid":"3","styles":[{"classes":"col-xs-6
+      col-sm-8 col-md-8","name":"A","$$hashKey":"02R"},{"classes":"col-xs-6 col-sm-4
+      col-md-4","name":"B","$$hashKey":"044"}],"gridEditing":"advanced"}</field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="customstyleclass">row grid-cell</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

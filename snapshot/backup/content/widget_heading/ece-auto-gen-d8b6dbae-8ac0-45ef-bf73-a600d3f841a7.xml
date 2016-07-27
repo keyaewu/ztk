@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="d8b6dbae-8ac0-45ef-bf73-a600d3f841a7" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading - Top Stories (h2)</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Top Stories</field>
+        <field name="widgetwrapper">
+            <value>h2</value>
+        </field>
+    </content>
+</escenic>

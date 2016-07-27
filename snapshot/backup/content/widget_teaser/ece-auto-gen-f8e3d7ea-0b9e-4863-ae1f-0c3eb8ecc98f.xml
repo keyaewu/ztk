@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="f8e3d7ea-0b9e-4863-ae1f-0c3eb8ecc98f" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.section.video"/>
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Video teasers</field>
+        <field name="sourcereference">
+            <value>inline</value>
+        </field>
+        <field name="maxitems">12</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"yes","priority":"yes","endDate":"","maxItems":""},"sourceDefinition":[{"sourceType":"desked","groupName":"main","$$hashKey":"004","groupInstance":"1","offset":"","contentTypes":["story"],"maxItems":"","sectionSelectionPolicy":"Category","section":"video","publication":""}]}</field>
+        <field name="teaserwrapper">
+            <value>div</value>
+        </field>
+        <field name="teaserstyleclass">col-md-2 col-sm-3 col-xs-6</field>
+        <field name="bodystyleclass">thumbnail</field>
+        <field name="bodyelements">
+            <value>
+                <value>media</value>
+            </value>
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>leadtext</value>
+            </value>
+            <value>
+                <value>readmore</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>readmore</value>
+                </field>
+                <field name="styleclass">btn btn-default btn-sm</field>
+            </value>
+        </field>
+        <field name="mediacontenttype">
+            <value>picture</value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+            <value>
+                <value>previewRel</value>
+            </value>
+        </field>
+        <field name="showrelationicons">false</field>
+        <field name="widgetwrapper">
+            <value>div</value>
+        </field>
+        <field name="customstyleclass">row</field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.label.readmore=Read more
+element.markup.tag.slideshow=div
+element.markup.tag.author=p
+element.markup.class.subtitle=subtitle
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.class.kicker=kicker
+element.markup.class.author=author
+element.markup.class.leadtext=leadtext
+element.markup.tag.overline=p
+element.markup.tag.picture=div
+element.markup.tag.shorttitle=h4
+element.markup.tag.subtitle=p
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.comments=comments
+element.markup.class.timestamp=timestamp
+element.markup.tag.updatealert=strong
+element.markup.tag.leadtext=p
+element.markup.textsize.text-big=text-big
+element.markup.class.updatealert=updatealert
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.readmore=readmore
+element.markup.tag.timestamp=strong
+element.markup.class.relatedelements=relatedelements
+element.markup.textsize.text-biggest=text-biggest
+element.markup.tag.comments=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.relatedelements=p
+element.markup.class.title=title
+element.markup.tag.title=h4
+element.markup.textsize.text-bigger=text-bigger
+element.markup.textsize.text-small=text-small
+element.markup.tag.readmore=p
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.overline=overline
+element.markup.class.slideshow=slideshow
+element.markup.tag.kicker=p
+element.markup.class.picture=picture</field>
+    </content>
+</escenic>

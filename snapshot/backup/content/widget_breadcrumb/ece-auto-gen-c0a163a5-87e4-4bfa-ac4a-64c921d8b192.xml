@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="c0a163a5-87e4-4bfa-ac4a-64c921d8b192" type="widget_breadcrumb" state="published">
+        <section-ref unique-name="config.default.tag"/>
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Bread crumb</field>
+        <field name="menuname">main</field>
+        <field name="displayarticletitle">true</field>
+        <field name="utilcacheenabled">false</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="34d77c31-742b-4d24-aec5-b955e79b6340" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.video"/>
+        <section-ref unique-name="config.default.section.sports"/>
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default.section.about"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading - Top Stories (h3)</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Top Stories</field>
+        <field name="widgetwrapper">
+            <value>h3</value>
+        </field>
+    </content>
+</escenic>

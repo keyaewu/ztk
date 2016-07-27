@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="2fe5c48d-4a98-46e2-a037-a6da2142091e" unique-name="config.default.section.international" name="International page template" layout-name="config" action="remove">
+        <area name="main">
+            <content-ref source="ece-auto-gen" sourceid="2fcc7ef2-fff5-4495-97c5-a25ed6fcf131">
+                <field name="title">Teaser Grid widget</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="f92232f7-ab57-4d00-bdd2-d0d96f37f14d">
+                <field name="title">View Picker</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="42776517-c9f3-4db5-92a8-6781811698af">
+                <field name="title">Teaser Grid widget</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="aside">
+            <content-ref source="ece-auto-gen" sourceid="4e50b0e1-9eed-41a6-989b-69acecdde826">
+                <field name="title">Teaser widget</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+    </section-page>
+</escenic>

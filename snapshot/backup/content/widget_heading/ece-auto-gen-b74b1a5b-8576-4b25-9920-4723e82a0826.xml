@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="b74b1a5b-8576-4b25-9920-4723e82a0826" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading - Business</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="contentsectionselection">
+            <title>Business (business)</title>
+            <value>business</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>h2</value>
+        </field>
+    </content>
+</escenic>

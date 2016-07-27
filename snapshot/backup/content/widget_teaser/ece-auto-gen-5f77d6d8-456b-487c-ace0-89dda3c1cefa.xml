@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="5f77d6d8-456b-487c-ace0-89dda3c1cefa" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.section.video"/>
+        <section-ref unique-name="config.default.section.about"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">WF3 list</field>
+        <field name="offset">2</field>
+        <field name="maxitems">6</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"no","priority":"yes","endDate":"","maxItems":""},"sourceDefinition":[{"sourceType":"desked","groupName":"main","$$hashKey":"007","groupInstance":"1","offset":"","contentTypes":["story"],"maxItems":"","sectionSelectionPolicy":"Category","section":"about","publication":""}]}</field>
+        <field name="teaserwrapper">
+            <value>div</value>
+        </field>
+        <field name="teaserstyleclass">col-sm-4 margin-bottom-md</field>
+        <field name="topelements">
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="bodywrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="bodyelements">
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>leadtext</value>
+            </value>
+            <value>
+                <value>readmore</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>title</value>
+                </field>
+                <field name="htmltag">
+                    <value>h3</value>
+                </field>
+            </value>
+            <value>
+                <field name="element">
+                    <value>readmore</value>
+                </field>
+                <field name="styleclass">btn btn-default</field>
+            </value>
+        </field>
+        <field name="mediacontenttype">
+            <value>picture</value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+        </field>
+        <field name="imagewidth">
+            <value>100</value>
+        </field>
+        <field name="imageposition">
+            <value>block</value>
+        </field>
+        <field name="timemode">
+            <value>human</value>
+        </field>
+        <field name="customdateformat">dd MMM yyyy</field>
+        <field name="datetoshow">
+            <value>publishedDate</value>
+        </field>
+        <field name="timestampprefix">Published</field>
+        <field name="timestampsuffix">-</field>
+        <field name="showrelationicons">false</field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.label.readmore=Read more
+element.markup.tag.slideshow=div
+element.markup.tag.author=p
+element.markup.class.subtitle=subtitle
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.class.kicker=kicker
+element.markup.class.author=author
+element.markup.class.leadtext=leadtext
+element.markup.tag.overline=p
+element.markup.tag.picture=div
+element.markup.tag.shorttitle=h4
+element.markup.tag.subtitle=p
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.comments=comments
+element.markup.class.timestamp=timestamp
+element.markup.tag.updatealert=strong
+element.markup.tag.leadtext=p
+element.markup.textsize.text-big=text-big
+element.markup.class.updatealert=updatealert
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.readmore=readmore
+element.markup.tag.timestamp=strong
+element.markup.class.relatedelements=relatedelements
+element.markup.textsize.text-biggest=text-biggest
+element.markup.tag.comments=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.relatedelements=p
+element.markup.class.title=title
+element.markup.tag.title=h4
+element.markup.textsize.text-bigger=text-bigger
+element.markup.textsize.text-small=text-small
+element.markup.tag.readmore=p
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.overline=overline
+element.markup.class.slideshow=slideshow
+element.markup.tag.kicker=p
+element.markup.class.picture=picture</field>
+    </content>
+</escenic>

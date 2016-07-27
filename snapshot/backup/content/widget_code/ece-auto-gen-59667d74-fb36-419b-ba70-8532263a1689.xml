@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="59667d74-fb36-419b-ba70-8532263a1689" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Brand info</field>
+        <field name="code">&lt;p&gt;Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris
+      condimentum nibh, ut fermentum massa justo sit amet risus. Donec ullamcorper nulla non metus.&lt;/p&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

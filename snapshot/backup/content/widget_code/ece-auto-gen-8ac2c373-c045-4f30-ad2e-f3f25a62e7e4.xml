@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8ac2c373-c045-4f30-ad2e-f3f25a62e7e4" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Alert (prototype)</field>
+        <field name="view">
+            <value>html</value>
+        </field>
+        <field name="code">&lt;section class="breaking" role="alert"&gt;
+      &lt;div class="alert alert-danger alert-dismissable"&gt;
+      &lt;button type="button" class="close" data-dismiss="alert" aria-hidden="true"&gt;&amp;times;&lt;/button&gt;
+      &lt;span class="label label-danger"&gt;Breaking news&lt;/span&gt; Nulla vitae elit libero, a pharetra augue. Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+      &lt;/div&gt;
+      &lt;/section&gt;</field>
+        <field name="path">/template/prototypes/alert.jsp</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

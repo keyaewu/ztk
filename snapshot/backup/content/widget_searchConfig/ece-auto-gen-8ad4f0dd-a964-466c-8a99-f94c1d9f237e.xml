@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8ad4f0dd-a964-466c-8a99-f94c1d9f237e" type="widget_searchConfig" state="published">
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Search config</field>
+        <field name="contenttypes">
+            <value>
+                <value>story</value>
+            </value>
+            <value>
+                <value>picture</value>
+            </value>
+            <value>
+                <value>gallery</value>
+            </value>
+        </field>
+        <field name="itemsperpage">9</field>
+        <field name="hlfields">
+            <value>title</value>
+            <value>summary</value>
+        </field>
+    </content>
+</escenic>

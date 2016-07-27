@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="d742baee-c8f9-4b27-a26c-f7ccfb265c39" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading - Menu</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Extra menu</field>
+        <field name="widgetwrapper">
+            <value>h3</value>
+        </field>
+    </content>
+</escenic>

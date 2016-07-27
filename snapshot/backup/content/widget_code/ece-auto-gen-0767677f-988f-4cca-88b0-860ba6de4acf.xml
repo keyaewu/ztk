@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="0767677f-988f-4cca-88b0-860ba6de4acf" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config.default"/>
+        <priority value="0"/>
+        <field name="title">Ruler</field>
+        <field name="view">
+            <value>html</value>
+        </field>
+        <field name="code">&lt;hr&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="c9fba329-8ba9-463d-9e1e-aa1faffcbbe2" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <section-ref unique-name="config.default"/>
+        <priority value="0"/>
+        <field name="title">Heading - Trending this week</field>
+        <field name="code">&lt;p class="pull-left margin-right-sm text-danger"&gt;TRENDING THIS WEEK &amp;raquo;&lt;/p&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

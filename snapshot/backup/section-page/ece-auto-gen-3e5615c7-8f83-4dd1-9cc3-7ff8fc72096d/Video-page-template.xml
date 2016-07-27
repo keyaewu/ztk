@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="3e5615c7-8f83-4dd1-9cc3-7ff8fc72096d" unique-name="config.default.section.video" name="Video page template" layout-name="config" action="remove">
+        <options>
+            <field name="area_split">
+                <value>12_0</value>
+            </field>
+        </options>
+        <area name="main">
+            <content-ref source="ece-auto-gen" sourceid="3e325c5e-ad14-472a-b630-7f952b9bde20">
+                <field name="title">Section title</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="split-2" label="Two column">
+                <area name="column-1">
+                    <options>
+                        <field name="htmltag">
+                            <value>section</value>
+                        </field>
+                        <field name="column-1-styleclass">row videos</field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="f08bd3c5-c745-42aa-b262-384f89efd0f8">
+                        <field name="title">Video page teasers</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <area name="column-2">
+                    <options>
+                        <field name="htmltag">
+                            <value>aside</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="ddda688f-586c-4a96-9793-3b96e9c95a18">
+                        <field name="title">Ad (prototype)</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="34d77c31-742b-4d24-aec5-b955e79b6340">
+                        <field name="title">Heading - Top Stories (h3)</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="14f8c041-c18c-410d-9344-1ee0f0a966b7">
+                        <field name="title">Section aside teasers</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="split">
+                        <value>8_4</value>
+                    </field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

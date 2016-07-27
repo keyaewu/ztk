@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="7f9538b7-a137-4649-a81b-9e957b037a6b" type="widget_pageMeta" state="published">
+        <section-ref unique-name="config.default.article.type.gallery"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Twitter card meta (gallery)</field>
+        <field name="metainfo">
+            <value>
+                <field name="key">twitter:card</field>
+                <field name="content">gallery</field>
+            </value>
+            <value>
+                <field name="key">twitter:site</field>
+                <field name="content">${sectionParams.twitter.publication.id}</field>
+            </value>
+            <value>
+                <field name="key">twitter:title</field>
+                <field name="content">${article.title}</field>
+            </value>
+            <value>
+                <field name="key">twitter:description</field>
+                <field name="content">${article.fields.leadtext}</field>
+            </value>
+            <value>
+                <field name="key">twitter:url</field>
+                <field name="content">${article.url}</field>
+            </value>
+            <value>
+                <field name="key">twitter:image0</field>
+                <field name="content">${meta.images[0].landscape_400}</field>
+            </value>
+            <value>
+                <field name="key">twitter:image1</field>
+                <field name="content">${meta.images[1].landscape_400}</field>
+            </value>
+            <value>
+                <field name="key">twitter:image2</field>
+                <field name="content">${meta.images[2].landscape_400}</field>
+            </value>
+            <value>
+                <field name="key">twitter:image3</field>
+                <field name="content">${meta.images[3].landscape_400}</field>
+            </value>
+        </field>
+    </content>
+</escenic>

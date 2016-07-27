@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="59bab75a-06eb-4475-ac71-8a9f67a718ec" unique-name="config.default.tag.scheme.places" name="Places scheme template" layout-name="config" action="remove"/>
+</escenic>

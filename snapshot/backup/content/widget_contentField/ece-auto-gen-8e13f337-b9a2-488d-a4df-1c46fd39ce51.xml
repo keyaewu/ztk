@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8e13f337-b9a2-488d-a4df-1c46fd39ce51" type="widget_contentField" state="published">
+        <section-ref unique-name="config.default.tag.main.football" home-section="true"/>
+        <section-ref unique-name="config.default.tag"/>
+        <priority value="0"/>
+        <field name="title">Topic leadtext</field>
+        <field name="field">
+            <value>leadtext</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">field.markup.class.title=title
+contentType=story
+field.markup.class.subtitle=subtitle
+field.markup.tag.subtitle=h3
+field.markup.class.body=body
+field.markup.tag.body=p
+field.markup.class.shorttitle=shorttitle
+field.markup.tag.shorttitle=h3
+field.format.date=EEE, d MMM yyyy HH:mm:ss
+field.markup.class.leadtext=leadtext text-big
+field.markup.tag.leadtext=h5
+field.markup.tag.title=h1</field>
+    </content>
+</escenic>

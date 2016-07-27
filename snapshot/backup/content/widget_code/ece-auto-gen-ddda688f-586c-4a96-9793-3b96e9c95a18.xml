@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="ddda688f-586c-4a96-9793-3b96e9c95a18" type="widget_code" state="published">
+        <section-ref unique-name="config.default.tag"/>
+        <section-ref unique-name="config.default.section.video"/>
+        <section-ref unique-name="config.default.section.sports"/>
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <section-ref unique-name="config.default.section.about"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config.default.article.type.story"/>
+        <priority value="0"/>
+        <field name="title">Ad (prototype)</field>
+        <field name="view">
+            <value>html</value>
+        </field>
+        <field name="code">&lt;div class="ad"&gt;
+      &lt;a href="#" title=""&gt;
+      &lt;img data-src="holder.js/336x280/auto/text:Rectangle%20336%20x%20280" alt="" class="img-responsive"&gt;
+      &lt;/a&gt;
+      &lt;/div&gt;</field>
+        <field name="path">/template/prototypes/ad.jsp</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

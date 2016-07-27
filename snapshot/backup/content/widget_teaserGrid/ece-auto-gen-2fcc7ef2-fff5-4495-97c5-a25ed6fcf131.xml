@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="2fcc7ef2-fff5-4495-97c5-a25ed6fcf131" type="widget_teaserGrid" state="published">
+        <section-ref unique-name="config.default.section.international" home-section="true"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="e329535c-93a0-4b42-ab69-2fe48b5fa1d6"/>
+        <priority value="0"/>
+        <field name="title">Teaser Grid widget</field>
+        <field name="gridgroupsources">
+            <value>
+                <field name="sectionselection">
+                    <title>International (international)</title>
+                    <value>international</value>
+                </field>
+                <field name="gridgroupindex">
+                    <value>1</value>
+                </field>
+            </value>
+        </field>
+    </content>
+</escenic>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="d335d94f-3696-40fb-9b79-cad9bb4f87a4" unique-name="config.default.section.search" name="Search page template" layout-name="config" action="remove">
+        <area name="outer">
+            <content-ref source="ece-auto-gen" sourceid="7df2767c-d24f-49d9-8b47-708bc6dce1d8">
+                <field name="title">theme.css</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="b98e819a-9ca7-4146-85a0-2021b73e8ece">
+                <field name="title">theme-responsive.css</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="8ad4f0dd-a964-466c-8a99-f94c1d9f237e">
+                <field name="title">Search config</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="main">
+            <group name="split-2" label="Two column">
+                <area name="column-1">
+                    <content-ref source="ece-auto-gen" sourceid="dd801e1b-0cde-4c4f-b5ab-3ce7f0743b78">
+                        <field name="title">Results counter</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <area name="column-2">
+                    <content-ref source="ece-auto-gen" sourceid="892ebd9e-39c4-4c90-b263-595a64a8ce53">
+                        <field name="title">Results order</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="split">
+                        <value>6_6</value>
+                    </field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="c7161441-b4c5-45be-aafb-452cebbef0f5">
+                <field name="title">Results list</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="06e53f72-76dc-4671-bb30-5fb423f5b508">
+                <field name="title">Results pager</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="aside">
+            <content-ref source="ece-auto-gen" sourceid="10ed6aa7-40f0-4640-bd8a-4a906fe9af85">
+                <field name="title">Recommended tabs</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="ddda688f-586c-4a96-9793-3b96e9c95a18">
+                <field name="title">Ad (prototype)</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+    </section-page>
+</escenic>

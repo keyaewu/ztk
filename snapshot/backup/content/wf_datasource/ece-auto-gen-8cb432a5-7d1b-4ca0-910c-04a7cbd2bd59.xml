@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="8cb432a5-7d1b-4ca0-910c-04a7cbd2bd59" type="wf_datasource" state="published">
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Data source - Topic related stories</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"no","priority":"no","24HoursBlock":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[{"maxItems":"4","sourceType":"related","relationGroups":["related","lead"],"$$hashKey":"00G","contentTypes":["story"]}],"$$hashKey":"00E","applySettings":"no"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+    </content>
+</escenic>

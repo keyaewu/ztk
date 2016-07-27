@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="396434a6-c0fb-4738-9b85-4bfe95c826b3" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Dummy copyright</field>
+        <field name="code">&lt;p&gt;&amp;copy; 2013 Escenic&lt;/p&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

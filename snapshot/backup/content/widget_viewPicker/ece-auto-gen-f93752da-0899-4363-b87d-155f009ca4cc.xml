@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="f93752da-0899-4363-b87d-155f009ca4cc" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.tag.main.football"/>
+        <section-ref unique-name="config.default.tag" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="c66948fb-c432-413e-85ed-a965e20507f6"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="3694d423-9137-4cef-926f-20e775614fb6">
+            <field name="selectortype">
+                <value>position</value>
+            </field>
+            <field name="position">
+                <value>odd</value>
+            </field>
+        </relation>
+        <priority value="0"/>
+        <field name="title">More tagged items</field>
+        <field name="view">
+            <value>default</value>
+        </field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="offset">3</field>
+        <field name="maxitems">10</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[],"applySettings":"yes"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="renderingmode">
+            <value>delegateView</value>
+        </field>
+        <field name="gridstyle">{"wrapperClass":"row","repeatGrid":"2","gridEditing":"basic","styles":[{"classes":"","$$hashKey":"004","name":"A"}],"gridItems":[{"style":"A"}]}</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

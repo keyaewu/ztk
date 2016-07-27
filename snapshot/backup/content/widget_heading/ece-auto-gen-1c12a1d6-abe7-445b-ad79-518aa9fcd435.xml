@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="1c12a1d6-abe7-445b-ad79-518aa9fcd435" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.tag.main.messi" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Related locations</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Related locations</field>
+        <field name="widgetwrapper">
+            <value>h3</value>
+        </field>
+        <field name="customstyleclass">inverse</field>
+    </content>
+</escenic>

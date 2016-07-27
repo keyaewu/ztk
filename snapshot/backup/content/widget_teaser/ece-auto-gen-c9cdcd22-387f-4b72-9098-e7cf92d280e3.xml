@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="c9cdcd22-387f-4b72-9098-e7cf92d280e3" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Frontpage carousel</field>
+        <field name="maxitems">1</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"no","priority":"yes","publishingPeriod":"any","endDate":"","maxItems":""},"sourceDefinition":[{"sourceType":"desked","groupName":"carousel","$$hashKey":"004","publishingPeriod":"specificRange","groupInstance":"1","offset":"","contentTypes":["story","gallery"],"maxItems":"","sectionSelectionPolicy":"Category","section":"","publication":""}]}</field>
+        <field name="teaserstyleclass">inverse-caption</field>
+        <field name="bodyelements">
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="mediacontenttype">
+            <value>picture</value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+            <value>
+                <value>lead</value>
+            </value>
+            <value>
+                <value>slideshow</value>
+            </value>
+        </field>
+        <field name="imagelink">
+            <value>nolink</value>
+        </field>
+        <field name="imagemode">
+            <value>slideshow</value>
+        </field>
+        <field name="showcaption">
+            <value>overlay</value>
+        </field>
+        <field name="showrelationicons">false</field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.class.updatealert=updatealert
+element.markup.tag.readmore=p
+element.markup.textsize.text-big=text-big
+element.markup.tag.overline=p
+element.markup.tag.title=h4
+element.markup.class.author=author
+element.markup.tag.summary=p
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.updatealert=strong
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.markup.class.leadtext=leadtext
+element.markup.tag.picture=div
+element.markup.textsize.text-small=text-small
+element.markup.textsize.kicker=text-smaller
+element.markup.textsize.text-bigger=text-bigger
+element.markup.tag.share=div
+element.markup.tag.leadtext=p
+element.markup.class.slideshow=slideshow
+element.markup.tag.timestamp=strong
+element.markup.tag.kicker=p
+element.markup.class.comments=comments
+element.markup.tag.comments=p
+element.markup.class.title=title
+element.markup.class.summary=summary
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.kicker=kicker
+element.markup.class.relatedelements=relatedelements
+element.markup.tag.relatedelements=p
+element.markup.tag.slideshow=div
+element.markup.class.share=share
+element.markup.class.subtitle=subtitle
+element.markup.class.picture=picture
+element.markup.tag.author=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.subtitle=p
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.overline=overline
+element.markup.class.picture-caption=picture-caption
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.readmore=readmore
+element.markup.class.timestamp=timestamp</field>
+    </content>
+</escenic>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="c7161441-b4c5-45be-aafb-452cebbef0f5" type="widget_searchComponent" state="published">
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="2fc432a6-2d8d-4b31-8282-0191dc984ab9"/>
+        <priority value="0"/>
+        <field name="title">Results list</field>
+        <field name="view">
+            <value>searchResult</value>
+        </field>
+        <field name="renderingmode">
+            <value>delegateView</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>div</value>
+        </field>
+        <field name="customstyleclass">row</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="73fc0177-5f6f-44d2-b048-d79098f59f0c" unique-name="config.default.section.about" name="About WF3 page template" layout-name="config" action="remove">
+        <options>
+            <field name="area_split">
+                <value>12_0</value>
+            </field>
+        </options>
+        <area name="main">
+            <options>
+                <field name="areastyleclass">main</field>
+            </options>
+            <content-ref source="ece-auto-gen" sourceid="3e325c5e-ad14-472a-b630-7f952b9bde20">
+                <field name="title">Section title</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="369d78cc-36b9-4e9d-a1ae-eb8dc163fb31">
+                <field name="title">WF3 top story</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="row" label="Row">
+                <area name="row-area">
+                    <content-ref source="ece-auto-gen" sourceid="5f77d6d8-456b-487c-ace0-89dda3c1cefa">
+                        <field name="title">WF3 list</field>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="customstyleclass">grid-cell</field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

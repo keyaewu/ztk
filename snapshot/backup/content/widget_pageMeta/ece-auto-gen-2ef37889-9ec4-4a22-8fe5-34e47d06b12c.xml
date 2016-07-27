@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="2ef37889-9ec4-4a22-8fe5-34e47d06b12c" type="widget_pageMeta" state="published">
+        <section-ref unique-name="config.default.section" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Section page meta</field>
+        <field name="metainfo">
+            <value>
+                <field name="key">robots</field>
+                <field name="content">${meta.searchbot.index} ${meta.searchbot.follow}</field>
+            </value>
+            <value>
+                <field name="key">description</field>
+                <field name="content">${sectionParams.section.description}</field>
+            </value>
+            <value>
+                <field name="key">keywords</field>
+                <field name="content">${sectionParams.section.keywords}</field>
+            </value>
+        </field>
+    </content>
+</escenic>

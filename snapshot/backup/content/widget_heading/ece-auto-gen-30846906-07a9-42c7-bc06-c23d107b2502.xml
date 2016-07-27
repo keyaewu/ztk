@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="30846906-07a9-42c7-bc06-c23d107b2502" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Videos</field>
+        <field name="headingsource">
+            <value>customText</value>
+        </field>
+        <field name="customtext">Videos</field>
+        <field name="widgetwrapper">
+            <value>h3</value>
+        </field>
+    </content>
+</escenic>

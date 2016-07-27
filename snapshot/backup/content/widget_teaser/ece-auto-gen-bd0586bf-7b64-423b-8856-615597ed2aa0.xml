@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="bd0586bf-7b64-423b-8856-615597ed2aa0" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default.master.recommended"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="4cdac5a0-a0a4-42b1-a684-316445e8c829"/>
+        <priority value="0"/>
+        <field name="title">Recommended stories</field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="maxitems">4</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"yes","priority":"yes","endDate":"","maxItems":""},"sourceDefinition":[]}</field>
+        <field name="topelements">
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="bodyelements">
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>leadtext</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>title</value>
+                </field>
+                <field name="styleclass">media-heading</field>
+                <field name="htmltag">
+                    <value>h4</value>
+                </field>
+            </value>
+            <value>
+                <field name="element">
+                    <value>leadtext</value>
+                </field>
+                <field name="htmltag">
+                    <value>p</value>
+                </field>
+            </value>
+        </field>
+        <field name="mediacontenttype">
+            <value>picture</value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+            <value>
+                <value>lead</value>
+            </value>
+        </field>
+        <field name="imageaspectratio">
+            <value>SQUARE</value>
+        </field>
+        <field name="imagewidth">
+            <value>20</value>
+        </field>
+        <field name="imageposition">
+            <value>right</value>
+        </field>
+        <field name="showrelationicons">false</field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.label.readmore=Read more
+element.markup.tag.slideshow=div
+element.markup.tag.author=p
+element.markup.class.subtitle=subtitle
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.class.kicker=kicker
+element.markup.class.author=author
+element.markup.class.leadtext=leadtext
+element.markup.tag.overline=p
+element.markup.tag.picture=div
+element.markup.tag.shorttitle=h4
+element.markup.tag.subtitle=p
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.comments=comments
+element.markup.class.timestamp=timestamp
+element.markup.tag.updatealert=strong
+element.markup.tag.leadtext=p
+element.markup.textsize.text-big=text-big
+element.markup.class.updatealert=updatealert
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.readmore=readmore
+element.markup.tag.timestamp=strong
+element.markup.class.relatedelements=relatedelements
+element.markup.textsize.text-biggest=text-biggest
+element.markup.tag.comments=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.relatedelements=p
+element.markup.class.title=title
+element.markup.tag.title=h4
+element.markup.textsize.text-bigger=text-bigger
+element.markup.textsize.text-small=text-small
+element.markup.tag.readmore=p
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.overline=overline
+element.markup.class.slideshow=slideshow
+element.markup.tag.kicker=p
+element.markup.class.picture=picture</field>
+    </content>
+</escenic>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="23d29611-ef0d-4ffa-a316-4e7d336ad50e" type="widget_pageMeta" state="published">
+        <section-ref unique-name="config.default.article.type.gallery"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Facebook open graph meta</field>
+        <field name="metakeyattribute">
+            <value>property</value>
+        </field>
+        <field name="metainfo">
+            <value>
+                <field name="key">og:title</field>
+                <field name="content">${article.title}</field>
+            </value>
+            <value>
+                <field name="key">og:site_name</field>
+                <field name="content">${sectionParams.publication.title}</field>
+            </value>
+            <value>
+                <field name="key">og:url</field>
+                <field name="content">${article.url}</field>
+            </value>
+            <value>
+                <field name="key">og:description</field>
+                <field name="content">${article.fields.leadtext}</field>
+            </value>
+            <value>
+                <field name="key">og:image</field>
+                <field name="content">${meta.image.landscape_1140}</field>
+            </value>
+            <value>
+                <field name="key">og:type</field>
+                <field name="content">article</field>
+            </value>
+            <value>
+                <field name="key">og:locale</field>
+                <field name="content">${sectionParams.locale}</field>
+            </value>
+        </field>
+    </content>
+</escenic>

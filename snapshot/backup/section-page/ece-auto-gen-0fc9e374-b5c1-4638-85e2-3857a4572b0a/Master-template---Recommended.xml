@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="0fc9e374-b5c1-4638-85e2-3857a4572b0a" unique-name="config.default.master.recommended" name="Master template - Recommended" layout-name="master-config" action="remove">
+        <area name="master-config-area">
+            <group name="tabbingGroup" label="Tabs">
+                <area name="tabbingGroup-area">
+                    <group name="tabPaneGroup" label="Pane">
+                        <area name="tabPaneGroup-area">
+                            <content-ref source="ece-auto-gen" sourceid="bd0586bf-7b64-423b-8856-615597ed2aa0">
+                                <field name="title">Recommended stories</field>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="title">Recommended</field>
+                        </options>
+                    </group>
+                    <group name="tabPaneGroup" label="Pane">
+                        <area name="tabPaneGroup-area">
+                            <content-ref source="ece-auto-gen" sourceid="e414d2e4-0aea-4a74-9ddf-b4a4bf29afc8">
+                                <field name="title">Most read stories</field>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="title">Most read</field>
+                        </options>
+                    </group>
+                    <group name="tabPaneGroup" label="Pane">
+                        <area name="tabPaneGroup-area">
+                            <content-ref source="ece-auto-gen" sourceid="8069f59b-0679-4518-b068-b09db4eef0a9">
+                                <field name="title">Most shared stories</field>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="title">Most shared</field>
+                        </options>
+                    </group>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="changeurl">true</field>
+                    <field name="htmltag">
+                        <value>section</value>
+                    </field>
+                    <field name="tabstyle">
+                        <value>tabs</value>
+                    </field>
+                    <field name="customstyleclass">popular</field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

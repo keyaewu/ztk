@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="a3e008e0-f7c6-470c-9f8e-52a7284e0f01" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Menu item - Home</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="customtext">Home</field>
+        <field name="anchorstyleclass">list-group-item</field>
+        <field name="sectionselection">
+            <section-ref unique-name="ece_frontpage"/>
+            <value>Home</value>
+        </field>
+    </content>
+</escenic>

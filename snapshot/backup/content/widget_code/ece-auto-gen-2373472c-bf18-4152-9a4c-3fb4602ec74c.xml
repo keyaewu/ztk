@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="2373472c-bf18-4152-9a4c-3fb4602ec74c" type="widget_code" state="published">
+        <section-ref unique-name="config.inline"/>
+        <section-ref unique-name="config.default.tag.main.football"/>
+        <section-ref unique-name="config.default.tag"/>
+        <section-ref unique-name="config.default.article.type.story" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Article share</field>
+        <field name="view">
+            <value>jsp</value>
+        </field>
+        <field name="path">/template/code/articleShare.jsp</field>
+        <field name="widgetwrapper">
+            <value>div</value>
+        </field>
+        <field name="styleid">share-code-widget</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

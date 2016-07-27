@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="7fd5f29a-e9b1-4a82-b35c-9bb962d03201" type="widget_teaser" state="published">
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Lead relations</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"yes","priority":"yes","endDate":"","maxItems":""},"sourceDefinition":[{"sourceType":"related","relationGroups":["lead"],"$$hashKey":"008","contentTypes":["picture"],"maxItems":"1"}]}</field>
+        <field name="teaserstyleclass">pull-left col-sm-6 no-padding-left</field>
+        <field name="bodyelements">
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">element.markup.label.readmore=Read more
+element.markup.tag.slideshow=div
+element.markup.tag.author=p
+element.markup.class.subtitle=subtitle
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.class.kicker=kicker
+element.markup.class.author=author
+element.markup.class.leadtext=leadtext
+element.markup.tag.overline=p
+element.markup.tag.picture=div
+element.markup.tag.shorttitle=h4
+element.markup.tag.subtitle=p
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.comments=comments
+element.markup.class.timestamp=timestamp
+element.markup.tag.updatealert=strong
+element.markup.tag.leadtext=p
+element.markup.textsize.text-big=text-big
+element.markup.class.updatealert=updatealert
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.readmore=readmore
+element.markup.tag.timestamp=strong
+element.markup.class.relatedelements=relatedelements
+element.markup.textsize.text-biggest=text-biggest
+element.markup.tag.comments=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.relatedelements=p
+element.markup.class.title=title
+element.markup.tag.title=h4
+element.markup.textsize.text-bigger=text-bigger
+element.markup.textsize.text-small=text-small
+element.markup.tag.readmore=p
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.overline=overline
+element.markup.class.slideshow=slideshow
+element.markup.tag.kicker=p
+element.markup.class.picture=picture</field>
+    </content>
+</escenic>

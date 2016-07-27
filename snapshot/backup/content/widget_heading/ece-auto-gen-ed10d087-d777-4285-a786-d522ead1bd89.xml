@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="ed10d087-d777-4285-a786-d522ead1bd89" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Brand</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="customtext">WF3</field>
+        <field name="anchorstyleclass">navbar-brand</field>
+        <field name="contentsectionselection">
+            <title>Front Page (ece_frontpage)</title>
+            <value>ece_frontpage</value>
+        </field>
+    </content>
+</escenic>

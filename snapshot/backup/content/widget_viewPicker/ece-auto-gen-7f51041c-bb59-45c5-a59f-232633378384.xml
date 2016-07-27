@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="7f51041c-bb59-45c5-a59f-232633378384" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.tag.main.football" home-section="true"/>
+        <relation type="datasourceRelation" source="ece-auto-gen" sourceid="8cb432a5-7d1b-4ca0-910c-04a7cbd2bd59"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="54fe7348-9278-4773-82d2-5f57081dc991"/>
+        <priority value="0"/>
+        <field name="title">Related topic items</field>
+        <field name="sourcereference">
+            <value>related</value>
+        </field>
+        <field name="maxitems">4</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[],"applySettings":"yes"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="renderingmode">
+            <value>delegateView</value>
+        </field>
+        <field name="gridstyle">{"wrapperClass":"row","gridItems":[{"style":"A"}],"repeatGrid":"2","styles":[{"classes":"","name":"A","$$hashKey":"004"}],"gridEditing":"basic"}</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

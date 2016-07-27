@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="14463936-47c0-415b-8772-4f3b7255c4de" type="wf_datasource" state="published">
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Data source - Top stories</field>
+        <field name="datasource">{"settings":{"startDate":"","sort":"publish_date_dec","deskedSettingsPolicy":"noFiltersDeskedFirst","deduplication":"yes","priority":"yes","endDate":"","maxItems":""},"sourceDefinition":[{"sourceType":"desked","groupName":"topStories","$$hashKey":"008","groupInstance":"1","contentTypes":["story"],"offset":"","sectionSelectionPolicy":"Category","maxItems":"","section":"ece_frontpage","publication":""}]}</field>
+    </content>
+</escenic>

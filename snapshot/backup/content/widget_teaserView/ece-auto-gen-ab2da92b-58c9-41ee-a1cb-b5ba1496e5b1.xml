@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="ab2da92b-58c9-41ee-a1cb-b5ba1496e5b1" type="widget_teaserView" state="published">
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Video teaser view - medium - last</field>
+        <field name="teaserstyleclass">col-xs-6 col-md-4 col-sm-6</field>
+        <field name="bodystyleclass">thumbnail</field>
+        <field name="bodyelements">
+            <value>
+                <value>media</value>
+            </value>
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>readmore</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>readmore</value>
+                </field>
+                <field name="styleclass">btn btn-default btn-sm</field>
+            </value>
+        </field>
+        <field name="mediacontenttype">
+            <value>picture</value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+        </field>
+        <field name="imageaspectratio">
+            <value>WIDE</value>
+        </field>
+        <field name="showrelationicons">false</field>
+        <field name="widgetwrapper">
+            <value>nowrap</value>
+        </field>
+        <field name="customstyleclass">row</field>
+        <field name="widgetproperties">element.markup.label.readmore=Read more
+element.markup.tag.updatealert=strong
+element.markup.tag.shorttitle=h4
+element.markup.textsize.text-smaller=text-smaller
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.relatedelements=relatedelements
+element.markup.class.comments=comments
+element.markup.tag.leadtext=p
+element.markup.textsize.text-biggest=text-biggest
+element.markup.class.picture=picture
+element.markup.tag.slideshow=div
+element.markup.textsize.text-big=text-big
+element.markup.class.updatealert=updatealert
+element.markup.class.readmore=readmore
+element.markup.tag.comments=p
+element.markup.tag.title=h4
+element.markup.tag.picture=div
+element.markup.tag.relatedelements=p
+element.markup.tag.readmore=p
+element.markup.class.slideshow=slideshow
+element.markup.textsize.text-small=text-small
+element.format.date.sdf.lastmodifieddate=dd MMM yyyy HH:mm zz
+element.markup.class.shorttitle=shorttitle
+element.markup.textsize.text-bigger=text-bigger
+element.format.date.sdf.publisheddate=dd MMM yyyy HH:mm zz
+element.markup.class.overline=overline
+element.markup.class.kicker=kicker
+element.markup.class.title=title
+element.markup.tag.timestamp=strong
+element.markup.class.author=author
+element.markup.tag.kicker=p
+element.markup.tag.overline=p
+element.markup.class.subtitle=subtitle
+element.markup.tag.author=p
+element.markup.tag.subtitle=p
+element.markup.class.timestamp=timestamp
+element.format.date.sdf.createddate=dd MMM yyyy HH:mm zz
+element.markup.class.leadtext=leadtext</field>
+    </content>
+</escenic>

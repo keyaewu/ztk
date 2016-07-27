@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="54fe7348-9278-4773-82d2-5f57081dc991" type="widget_teaserView" state="published">
+        <section-ref unique-name="config.default.tag" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Teaser view- grid tagged items</field>
+        <field name="teaserstyleclass">col-sm-6</field>
+        <field name="topelements">
+            <value>
+                <value>title</value>
+            </value>
+            <value>
+                <value>media</value>
+            </value>
+        </field>
+        <field name="bodywrapper">
+            <value>ul</value>
+        </field>
+        <field name="bodystyleclass">list-inline meta margin-top-xs text-smallest</field>
+        <field name="bodyelements">
+            <value>
+                <value>kicker</value>
+            </value>
+            <value>
+                <value>timestamp</value>
+            </value>
+        </field>
+        <field name="bottomwrapper">
+            <value>div</value>
+        </field>
+        <field name="bottomstyleclass">media-body</field>
+        <field name="bottomelements">
+            <value>
+                <value>leadtext</value>
+            </value>
+        </field>
+        <field name="textsettings">
+            <value>
+                <field name="element">
+                    <value>kicker</value>
+                </field>
+                <field name="styleclass">label label-info</field>
+                <field name="htmltag">
+                    <value>span</value>
+                </field>
+            </value>
+        </field>
+        <field name="mediacontenttypes">
+            <value>
+                <value>picture</value>
+            </value>
+        </field>
+        <field name="mediasource">
+            <value>
+                <value>related</value>
+            </value>
+            <value>
+                <value>teaser</value>
+            </value>
+            <value>
+                <value>lead</value>
+            </value>
+        </field>
+        <field name="imageaspectratio">
+            <value>WIDE</value>
+        </field>
+        <field name="imagemode">
+            <value>slideshow</value>
+        </field>
+        <field name="imagewidth">
+            <value>100</value>
+        </field>
+        <field name="imageposition">
+            <value>block</value>
+        </field>
+        <field name="kickermode">
+            <value>tag</value>
+        </field>
+        <field name="timemode">
+            <value>sdf</value>
+        </field>
+        <field name="customdateformat">dd MMM yyyy HH:mm zz</field>
+        <field name="datetoshow">
+            <value>lastModifiedDate</value>
+        </field>
+        <field name="customstyleclass">row grid-cell</field>
+        <field name="widgetproperties">element.markup.class.updatealert=updatealert
+element.markup.inline.close-link-style=inline-close
+element.markup.tag.readmore=p
+element.markup.textsize.text-big=text-big
+element.markup.tag.overline=p
+element.markup.tag.title=h4
+element.markup.class.author=author
+element.markup.tag.summary=p
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.updatealert=strong
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.markup.class.leadtext=leadtext
+element.markup.tag.picture=div
+element.markup.textsize.text-small=text-small
+element.markup.textsize.kicker=text-smaller
+element.markup.textsize.text-bigger=text-bigger
+element.markup.tag.share=div
+element.markup.tag.leadtext=p
+element.markup.class.slideshow=slideshow
+element.markup.tag.timestamp=span
+element.markup.tag.kicker=p
+element.markup.class.comments=comments
+element.markup.tag.comments=p
+element.markup.class.title=title
+element.markup.class.summary=summary
+element.markup.textsize.text-smallest=text-smallest
+element.markup.class.kicker=kicker
+element.markup.class.relatedelements=list-unstyled
+element.markup.tag.relatedelements=ul
+element.markup.tag.slideshow=div
+element.markup.class.share=share
+element.markup.class.subtitle=subtitle
+element.markup.class.picture=picture
+element.markup.tag.author=p
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.subtitle=p
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.overline=overline
+element.markup.class.picture-caption=picture-caption
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.class.readmore=readmore
+element.markup.class.timestamp=timestamp</field>
+    </content>
+</escenic>

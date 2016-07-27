@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="10ed6aa7-40f0-4640-bd8a-4a906fe9af85" type="widget_master" state="published">
+        <section-ref unique-name="config.default.tag"/>
+        <section-ref unique-name="config.default.section.video"/>
+        <section-ref unique-name="config.default.section.sports"/>
+        <section-ref unique-name="config.default.section.search"/>
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config.default.section.about"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Recommended tabs</field>
+        <field name="mastersectionuniquename">
+            <value>config.default.master.recommended</value>
+        </field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

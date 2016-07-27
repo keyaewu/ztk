@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="7456ad88-1055-4039-9ccb-2d352d68bc33" unique-name="config.default.tag.main.football" name="Football tag template" layout-name="config" action="remove">
+        <area name="top">
+            <options>
+                <field name="areastyleclass">margin-bottom-sm</field>
+            </options>
+            <group name="split-2" label="Two column">
+                <area name="column-1">
+                    <content-ref source="ece-auto-gen" sourceid="1d6348c0-45e6-4504-8b9d-a1db2e3e0eb0">
+                        <field name="title">Football tag heading</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="8e13f337-b9a2-488d-a4df-1c46fd39ce51">
+                        <field name="title">Topic leadtext</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="2373472c-bf18-4152-9a4c-3fb4602ec74c">
+                        <field name="title">Article share</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <area name="column-2">
+                    <content-ref source="ece-auto-gen" sourceid="8a98b6dd-dc66-44e5-a1e5-33592356abe5">
+                        <field name="title">Related picture</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="split">
+                        <value>8_4</value>
+                    </field>
+                </options>
+            </group>
+        </area>
+        <area name="main">
+            <content-ref source="ece-auto-gen" sourceid="7f51041c-bb59-45c5-a59f-232633378384">
+                <field name="title">Related topic items</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="f93752da-0899-4363-b87d-155f009ca4cc">
+                <field name="title">Tag related items</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="aside">
+            <group name="contextSectionGroup" label="Context Section">
+                <area name="contextSection-area">
+                    <content-ref source="ece-auto-gen" sourceid="9ae740b2-4f57-4d00-ba51-7aecda83491d">
+                        <field name="title">Latest stories</field>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="0eb71b8e-d1a5-4806-a5c3-f57202c15668">
+                        <field name="title">Latest in home section of topic article</field>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="4ff9b2ab-5a46-4c80-9537-f24208545164">
+                        <field name="title">Most read</field>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="b3c4adfc-2d6f-4953-a1b9-e89c39e1d395">
+                        <field name="title">Most read in home section of topic article</field>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="reference">
+                        <value>articleHome</value>
+                    </field>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

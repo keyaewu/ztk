@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="595f08b5-7ed8-4ed8-9dad-2cbf07447e42" type="widget_contentField" state="published">
+        <section-ref unique-name="config.inline"/>
+        <section-ref unique-name="config.default.tag.main.football"/>
+        <section-ref unique-name="config.default.article.type.story"/>
+        <section-ref unique-name="config.default.article" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Headline</field>
+        <field name="field">
+            <origin href="http://link/to/myself/on/the/server/entry/title"/>
+            <value>title</value>
+        </field>
+        <field name="enableesi">false</field>
+        <field name="widgetproperties">field.markup.tag.shorttitle=h3
+field.markup.class.title=title
+field.markup.class.body=body
+field.markup.tag.subtitle=h3
+contenttype=story
+field.markup.tag.leadtext=h5
+field.markup.tag.body=p
+field.format.date=EEE
+field.markup.tag.title=h1
+field.markup.class.subtitle=subtitle
+field.markup.class.leadtext=leadtext
+field.markup.class.shorttitle=shorttitle</field>
+    </content>
+</escenic>

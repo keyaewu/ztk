@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="18cd37d1-afd4-4195-8350-3712af690f5e" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Heading - Trending today</field>
+        <field name="code">&lt;p class="pull-left margin-right-sm text-danger"&gt;TRENDING TODAY &amp;raquo;&lt;/p&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>

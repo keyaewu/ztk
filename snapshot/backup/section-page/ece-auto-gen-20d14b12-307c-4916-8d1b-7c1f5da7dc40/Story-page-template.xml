@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="20d14b12-307c-4916-8d1b-7c1f5da7dc40" unique-name="config.default.article.type.story" name="Story page template" layout-name="config" action="remove">
+        <area name="top">
+            <content-ref source="ece-auto-gen" sourceid="c0a163a5-87e4-4bfa-ac4a-64c921d8b192">
+                <field name="title">Bread crumb</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="main">
+            <content-ref source="ece-auto-gen" sourceid="a9bf0e5a-cb83-42a6-ab39-f9aa3ef82325">
+                <field name="title">Gallery of related photos</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="f7a48f11-1897-462e-bcef-81529e98ef9c">
+                <field name="title">Subhead</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="595f08b5-7ed8-4ed8-9dad-2cbf07447e42">
+                <field name="title">Headline</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="87bcd8eb-d04c-419d-a074-05bc4b520d9e">
+                <field name="title">Lead text</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="f26029aa-1062-4a8c-9b8b-d6e3bf4a78b0">
+                <field name="title">Content tags</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <content-ref source="ece-auto-gen" sourceid="d4b2b176-aa26-4c0f-883f-696f43f6ece6">
+                        <field name="title">Author</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="07b8ca98-f208-4476-9209-9f4e538624ef">
+                        <field name="title">Published</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="b21350e8-5d11-4f6f-9418-656484a60374">
+                        <field name="title">Last modified</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>ul</value>
+                    </field>
+                    <field name="customstyleclass">list-inline text-muted</field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="2373472c-bf18-4152-9a4c-3fb4602ec74c">
+                <field name="title">Article share</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <content-ref source="ece-auto-gen" sourceid="7fd5f29a-e9b1-4a82-b35c-9bb962d03201">
+                        <field name="title">Lead relations</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="e8c2b2ea-6194-42a7-ac46-e22af82c392c">
+                        <field name="title">Body text</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>section</value>
+                    </field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="6363c781-ae75-4888-a691-f956ab1c373a">
+                <field name="title">Heading - Related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="06fb0d36-a3fe-441d-bb9c-84506e5f0ac3">
+                <field name="title">Related stories</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="aside">
+            <content-ref source="ece-auto-gen" sourceid="10ed6aa7-40f0-4640-bd8a-4a906fe9af85">
+                <field name="title">Recommended tabs</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="ddda688f-586c-4a96-9793-3b96e9c95a18">
+                <field name="title">Ad (prototype)</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="30846906-07a9-42c7-bc06-c23d107b2502">
+                <field name="title">Videos</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="25e2d695-3f37-44e8-a0c2-f7a5d9200c89">
+                <field name="title">Video items</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="bottom">
+            <options>
+                <field name="showbottomarea">
+                    <value>false</value>
+                </field>
+            </options>
+        </area>
+    </section-page>
+</escenic>

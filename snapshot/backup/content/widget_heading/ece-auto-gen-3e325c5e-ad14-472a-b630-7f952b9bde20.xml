@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="3e325c5e-ad14-472a-b630-7f952b9bde20" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.video"/>
+        <section-ref unique-name="config.default.section.sports"/>
+        <section-ref unique-name="config.default.section.about"/>
+        <section-ref unique-name="config.default.section"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Section title</field>
+        <field name="headingsource">
+            <value>contextSection</value>
+        </field>
+        <field name="widgetwrapper">
+            <value>h2</value>
+        </field>
+        <field name="customstyleclass">margin-bottom-md</field>
+    </content>
+</escenic>

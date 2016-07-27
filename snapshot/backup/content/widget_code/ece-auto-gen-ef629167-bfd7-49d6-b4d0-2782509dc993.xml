@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="ef629167-bfd7-49d6-b4d0-2782509dc993" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Live story (prototype)</field>
+        <field name="view">
+            <value>html</value>
+        </field>
+        <field name="code">&lt;div class="thumbnails"&gt;
+      &lt;article class="thumbnail"&gt;
+      &lt;a href="#" title=""&gt;&lt;img data-src="holder.js/725x450/auto/text:Image%20live%20story" alt="" class="img-responsive"&gt;&lt;/a&gt;
+      &lt;header class="caption"&gt;
+      &lt;h4&gt;&lt;a href="#" title=""&gt;Title of a developing story that is being updated minute-by-minute.&lt;/a&gt;&lt;/h4&gt;
+      &lt;ul class="media-list"&gt;
+      &lt;li class="media"&gt;
+      &lt;time datetime="10:14" class="label label-default pull-left"&gt;10:14&lt;/time&gt;
+      &lt;div class="media-body"&gt;
+      Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo.
+      &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="media"&gt;
+      &lt;time datetime="10:12" class="label label-default pull-left"&gt;10:12&lt;/time&gt;
+      &lt;div class="media-body"&gt;
+      Sed posuere consectetur est at lobortis. Etiam porta sem malesuada magna mollis euismod.
+      &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="media"&gt;
+      &lt;time datetime="10:09" class="label label-default pull-left"&gt;10:09&lt;/time&gt;
+      &lt;div class="media-body"&gt;
+      Etiam porta sem malesuada magna mollis euismod. Vestibulum id ligula porta felis euismod semper.
+      &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="media"&gt;
+      &lt;time datetime="10:02" class="label label-default pull-left"&gt;10:02&lt;/time&gt;
+      &lt;div class="media-body"&gt;
+      Maecenas faucibus mollis interdum. Praesent commodo cursus magna.
+      &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;li class="media"&gt;
+      &lt;time datetime="09:55" class="label label-default pull-left"&gt;09:55&lt;/time&gt;
+      &lt;div class="media-body"&gt;
+      Cras justo odio, dapibus ac facilisis in, egestas eget quam.
+      &lt;/div&gt;
+      &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;p class="media-timeline"&gt;&lt;a href="#" title="" class="btn btn-default"&gt;See full timeline&lt;/a&gt;&lt;/p&gt;
+      &lt;/header&gt;
+      &lt;/article&gt;
+      &lt;/div&gt;</field>
+        <field name="path">/template/prototypes/liveStory.jsp</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>
