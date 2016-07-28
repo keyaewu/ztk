@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="b875ad22-6322-4d50-8693-0ce4781e8bb4" unique-name="config.default.section.news" name="News" layout-name="config" action="remove"/>
+</escenic>
