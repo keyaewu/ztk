@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.mirror.config.default.section.international" source="ece-auto-gen" sourceid="11cd3d46-ef53-4792-99b0-3652d04c1c9b" name="&lt;mirror&gt; International page template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="2fe5c48d-4a98-46e2-a037-a6da2142091e" unique-name="config.default.section.international"/>
+        <unique-name>overlay.mirror.config.default.section.international</unique-name>
+        <directory>overlay_mirror_config_default_section_international</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

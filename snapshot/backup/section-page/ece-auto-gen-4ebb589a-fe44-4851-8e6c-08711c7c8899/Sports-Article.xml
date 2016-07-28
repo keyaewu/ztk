@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="4ebb589a-fe44-4851-8e6c-08711c7c8899" unique-name="config.default.article.sports" name="Sports Article" layout-name="config" action="remove"/>
+</escenic>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="746cb25f-3c74-4438-86d8-5e86b09e8e5b" unique-name="overlay.ntv.config.default.article.type.gallery" name="&lt;ntv&gt; Gallery page template" layout-name="overlay-config" action="remove"/>
+</escenic>

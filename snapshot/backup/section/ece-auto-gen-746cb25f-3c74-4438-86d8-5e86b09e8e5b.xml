@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.ntv.config.default.article.type.gallery" source="ece-auto-gen" sourceid="746cb25f-3c74-4438-86d8-5e86b09e8e5b" name="&lt;ntv&gt; Gallery page template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="3cf6eec1-09cc-4e5c-a823-b83a18cddb6b" unique-name="config.default.article.type.gallery"/>
+        <unique-name>overlay.ntv.config.default.article.type.gallery</unique-name>
+        <directory>overlay_ntv_config_default_article_type_gallery</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

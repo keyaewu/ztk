@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="11cd3d46-ef53-4792-99b0-3652d04c1c9b" unique-name="overlay.mirror.config.default.section.international" name="&lt;mirror&gt; International page template" layout-name="overlay-config" action="remove">
+        <area name="overlay-config-area">
+            <group name="areaOverlay" label="top">
+                <options>
+                    <field name="referredarea">
+                        <title>Top</title>
+                        <value>top</value>
+                    </field>
+                </options>
+            </group>
+            <group name="groupOverlay" label="Navbar">
+                <area name="groupOverlay-area">
+                    <group name="contextSectionGroup" label="Context Section">
+                        <area name="contextSection-area">
+                            <content-ref source="ece-auto-gen" sourceid="fea47147-4bbf-4716-868f-c2caccba9f75">
+                                <field name="title">hello world</field>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="reference">
+                                <value>menu</value>
+                            </field>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                            <field name="referable">false</field>
+                        </options>
+                    </group>
+                </area>
+                <options>
+                    <field name="referredgroup">Navbar</field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

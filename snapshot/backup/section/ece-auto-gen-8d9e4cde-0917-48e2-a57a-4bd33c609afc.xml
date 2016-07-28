@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.qsite.config.default.section.international" source="ece-auto-gen" sourceid="8d9e4cde-0917-48e2-a57a-4bd33c609afc" name="&lt;qsite&gt; International page template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="2fe5c48d-4a98-46e2-a037-a6da2142091e" unique-name="config.default.section.international"/>
+        <unique-name>overlay.qsite.config.default.section.international</unique-name>
+        <directory>overlay_qsite_config_default_section_international</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="672c5a50-d307-4d68-becf-0d00e014db11" type="widget_viewPicker" state="published">
+        <section-ref unique-name="config.default.article.type.picture" home-section="true"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="ad6e2749-f519-4ce8-96c5-8b627ed864c8"/>
+        <priority value="0"/>
+        <field name="title">view picker</field>
+        <field name="disableviewadjustment">true</field>
+        <field name="datasource">{"settings":{"maxItems":"","endDate":"","publishingPeriod":"any","24HoursBlockFromNow":"no","sort":"publish_date_dec","deduplication":"yes","24HoursBlock":"no","priority":"no","startDate":""},"sourceGroups":[{"sourceDefinition":[],"applySettings":"yes"}],"sourceDefinition":[],"formatVersion":"3.1"}</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>
