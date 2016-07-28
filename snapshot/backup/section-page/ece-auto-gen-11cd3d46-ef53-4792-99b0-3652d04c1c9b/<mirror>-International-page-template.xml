@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="11cd3d46-ef53-4792-99b0-3652d04c1c9b" unique-name="overlay.mirror.config.default.section.international" name="&lt;mirror&gt; International page template" layout-name="overlay-config" action="remove"/>
+</escenic>
