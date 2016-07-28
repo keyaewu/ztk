@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.mtv.config.default.article.type.picture" source="ece-auto-gen" sourceid="3b99890e-d1e5-4ec9-b591-0510306bbdf0" name="&lt;mtv&gt; Picture page template" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="a3d8e415-2982-4810-abfc-b16f07b477d7" unique-name="config.default.article.type.picture"/>
+        <unique-name>overlay.mtv.config.default.article.type.picture</unique-name>
+        <directory>overlay_mtv_config_default_article_type_picture</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>
