@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.notv.config.default.article.sports" source="ece-auto-gen" sourceid="c765a203-5687-4bdc-85af-f72365ebcd71" name="&lt;notv&gt; Sports Article" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="4ebb589a-fe44-4851-8e6c-08711c7c8899" unique-name="config.default.article.sports"/>
+        <unique-name>overlay.notv.config.default.article.sports</unique-name>
+        <directory>overlay_notv_config_default_article_sports</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>
