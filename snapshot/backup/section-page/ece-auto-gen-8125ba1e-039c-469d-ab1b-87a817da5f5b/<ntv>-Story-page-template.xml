@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="8125ba1e-039c-469d-ab1b-87a817da5f5b" unique-name="overlay.ntv.config.default.article.type.story" name="&lt;ntv&gt; Story page template" layout-name="overlay-config" action="remove"/>
+</escenic>
