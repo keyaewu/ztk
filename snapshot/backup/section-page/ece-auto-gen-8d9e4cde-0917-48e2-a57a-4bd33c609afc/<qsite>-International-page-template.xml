@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="8d9e4cde-0917-48e2-a57a-4bd33c609afc" unique-name="overlay.qsite.config.default.section.international" name="&lt;qsite&gt; International page template" layout-name="config" action="remove"/>
+</escenic>
