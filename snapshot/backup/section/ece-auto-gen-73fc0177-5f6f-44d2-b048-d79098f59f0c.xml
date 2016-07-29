@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section unique-name="config.default.section.about" source="ece-auto-gen" sourceid="73fc0177-5f6f-44d2-b048-d79098f59f0c" name="About WF3 page template" mirror-source="false">
-        <parent source="ece-auto-gen" sourceid="f9375719-fc61-47b3-bc2c-42f64fefabeb" unique-name="config.default.section"/>
+        <parent source="ece-auto-gen" sourceid="38d1819d-c504-43c3-89b4-d60b8262a617" unique-name="config.default.section"/>
         <unique-name>config.default.section.about</unique-name>
         <directory>config_default_section_about</directory>
         <section-layout>defaultsection</section-layout>

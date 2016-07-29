@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section unique-name="config.default.article.type.gallery" source="ece-auto-gen" sourceid="3cf6eec1-09cc-4e5c-a823-b83a18cddb6b" name="Gallery page template" mirror-source="false">
-        <parent source="ece-auto-gen" sourceid="65a5537f-b3d8-4e6b-b46c-fd24129737ac" unique-name="config.default.article"/>
+        <parent source="ece-auto-gen" sourceid="22706e41-40be-4206-b1b2-12fa0a552287" unique-name="config.default.article"/>
         <unique-name>config.default.article.type.gallery</unique-name>
         <directory>config_default_article_type_gallery</directory>
         <section-layout>defaultsection</section-layout>

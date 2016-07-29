@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
-    <section unique-name="config.default.section.video" source="ece-auto-gen" sourceid="3e5615c7-8f83-4dd1-9cc3-7ff8fc72096d" name="Video page template" mirror-source="false">
+    <section unique-name="config.default.section.ece_frontpage" source="ece-auto-gen" sourceid="a0817a35-73fc-4403-b7ab-d36da4abf042" name="Frontpage template" mirror-source="false">
         <parent source="ece-auto-gen" sourceid="38d1819d-c504-43c3-89b4-d60b8262a617" unique-name="config.default.section"/>
-        <unique-name>config.default.section.video</unique-name>
-        <directory>config_default_section_video</directory>
+        <unique-name>config.default.section.ece_frontpage</unique-name>
+        <directory>config_default_section_ece_frontpage</directory>
         <section-layout>defaultsection</section-layout>
         <article-layout>defaultarticle</article-layout>
     </section>

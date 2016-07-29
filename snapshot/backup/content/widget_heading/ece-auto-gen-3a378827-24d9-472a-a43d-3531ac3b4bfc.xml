@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="3a378827-24d9-472a-a43d-3531ac3b4bfc" type="widget_heading" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage"/>
+        <section-ref unique-name="config" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">Smoke testing</field>
+        <field name="headingsource">
+            <value>selectedSection</value>
+        </field>
+        <field name="contentsectionselection">
+            <title>Front Page (ece_frontpage)</title>
+            <value>ece_frontpage</value>
+        </field>
+    </content>
+</escenic>

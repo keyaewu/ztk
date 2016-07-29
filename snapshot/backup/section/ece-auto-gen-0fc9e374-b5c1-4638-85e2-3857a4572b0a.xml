@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section unique-name="config.default.master.recommended" source="ece-auto-gen" sourceid="0fc9e374-b5c1-4638-85e2-3857a4572b0a" name="Master template - Recommended" mirror-source="false">
-        <parent source="ece-auto-gen" sourceid="c89da663-fe65-4e66-b4a4-e275f4611367" unique-name="config.default.master"/>
+        <parent source="ece-auto-gen" sourceid="52249d31-c1cd-4b34-9ed0-03ee5b8fa84d" unique-name="config.default.master"/>
         <unique-name>config.default.master.recommended</unique-name>
         <directory>config_default_master_recommended</directory>
         <section-layout>defaultsection</section-layout>

@@ -1,89 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section-page source="ece-auto-gen" sourceid="2fe5c48d-4a98-46e2-a037-a6da2142091e" unique-name="config.default.section.international" name="International page template" layout-name="config" action="remove">
-        <options>
-            <field name="asideposition">
-                <value>right</value>
-            </field>
-            <field name="area_split">
-                <value>8_4</value>
-            </field>
-        </options>
-        <area name="outer">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>div</value>
-                </field>
-            </options>
-        </area>
-        <area name="header">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>header</value>
-                </field>
-            </options>
-        </area>
-        <area name="top">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>div</value>
-                </field>
-                <field name="showtoparea">
-                    <value>true</value>
-                </field>
-            </options>
-        </area>
         <area name="main">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>section</value>
-                </field>
-            </options>
-            <group name="navbar" label="Navbar">
-                <area name="nav">
-                    <options>
-                        <field name="loadingpolicy">
-                            <value>onPage</value>
-                        </field>
-                    </options>
-                    <content-ref source="ece-auto-gen" sourceid="fea47147-4bbf-4716-868f-c2caccba9f75">
-                        <field name="title">hello world</field>
-                        <options>
-                            <field name="loadingpolicy">
-                                <value>onPage</value>
-                            </field>
-                        </options>
-                    </content-ref>
-                </area>
-                <options>
-                    <field name="loadingpolicy">
-                        <value>onPage</value>
-                    </field>
-                    <field name="com.escenic.color">#ccccff</field>
-                    <field name="htmltag">
-                        <value>nav</value>
-                    </field>
-                    <field name="referable">true</field>
-                    <field name="navbarstyle">
-                        <value>navbar-default</value>
-                    </field>
-                    <field name="navbarpostion">
-                        <value>no-class</value>
-                    </field>
-                </options>
-            </group>
             <content-ref source="ece-auto-gen" sourceid="2fcc7ef2-fff5-4495-97c5-a25ed6fcf131">
                 <field name="title">Teaser Grid widget</field>
                 <options>
@@ -110,14 +28,6 @@
             </content-ref>
         </area>
         <area name="aside">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>aside</value>
-                </field>
-            </options>
             <content-ref source="ece-auto-gen" sourceid="4e50b0e1-9eed-41a6-989b-69acecdde826">
                 <field name="title">Teaser widget</field>
                 <options>
@@ -126,29 +36,6 @@
                     </field>
                 </options>
             </content-ref>
-        </area>
-        <area name="bottom">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>div</value>
-                </field>
-                <field name="showbottomarea">
-                    <value>true</value>
-                </field>
-            </options>
-        </area>
-        <area name="footer">
-            <options>
-                <field name="loadingpolicy">
-                    <value>onPage</value>
-                </field>
-                <field name="htmltag">
-                    <value>footer</value>
-                </field>
-            </options>
         </area>
     </section-page>
 </escenic>

@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="a5d510d5-d9ef-4592-87d7-f4a61d7d6191" unique-name="config.default" name="Default" layout-name="config" action="remove">
+        <options>
+            <field name="area_split">
+                <value>12_0</value>
+            </field>
+        </options>
+        <area name="outer">
+            <options>
+                <field name="areastyleclass">outer</field>
+            </options>
+            <content-ref source="ece-auto-gen" sourceid="6ddc335c-c560-464d-80f1-b79ceea5d90d">
+                <field name="title">Article share script</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>lazy</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="7df2767c-d24f-49d9-8b47-708bc6dce1d8">
+                <field name="title">theme.css</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="b98e819a-9ca7-4146-85a0-2021b73e8ece">
+                <field name="title">theme-responsive.css</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+        </area>
+        <area name="header">
+            <options>
+                <field name="areastyleclass">header</field>
+            </options>
+            <group name="navbar" label="Navbar">
+                <area name="nav">
+                    <content-ref source="ece-auto-gen" sourceid="ed10d087-d777-4285-a786-d522ead1bd89">
+                        <field name="title">Brand</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <group name="collapseGroup" label="Collapse">
+                        <area name="collapse">
+                            <content-ref source="ece-auto-gen" sourceid="ab799076-109a-40b1-9d20-d526c45ca21a">
+                                <field name="title">Menu</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                            <content-ref source="ece-auto-gen" sourceid="f5cc3b0b-4585-46b8-8d1b-f85a776efd31">
+                                <field name="title">Search form</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </group>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>nav</value>
+                    </field>
+                    <field name="navbarstyle">
+                        <value>navbar-default</value>
+                    </field>
+                    <field name="navbarpostion">
+                        <value>no-class</value>
+                    </field>
+                </options>
+            </group>
+            <group name="wrapperGroup" label="Wrapper">
+                <area name="wrapperGroup-area">
+                    <content-ref source="ece-auto-gen" sourceid="b63c7264-8441-4b56-9b2c-b90738f21a25">
+                        <field name="title">Heading - Trending</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="7f1028eb-ed47-48ee-98dc-a92872753621">
+                        <field name="title">Tags widget - Trending this week</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="customstyleclass">clearfix</field>
+                </options>
+            </group>
+        </area>
+        <area name="top">
+            <options>
+                <field name="showtoparea">
+                    <value>false</value>
+                </field>
+            </options>
+        </area>
+        <area name="bottom">
+            <options>
+                <field name="showbottomarea">
+                    <value>false</value>
+                </field>
+            </options>
+        </area>
+        <area name="footer">
+            <options>
+                <field name="areastyleclass">footer</field>
+                <field name="htmltag">
+                    <value>footer</value>
+                </field>
+            </options>
+            <group name="split-3" label="Three column">
+                <area name="column-1">
+                    <options>
+                        <field name="htmltag">
+                            <value>section</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="8b5eb6bb-0116-49fe-9170-0ccd6d3fe0d0">
+                        <field name="title">Heading - Brand</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="d773124a-7e75-40fa-ac04-0d2501a7f72f">
+                        <field name="title">Brand links</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <area name="column-2">
+                    <options>
+                        <field name="htmltag">
+                            <value>section</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="7ed64d6d-0123-4e78-815b-b4b871688abd">
+                        <field name="title">Heading - About us</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <content-ref source="ece-auto-gen" sourceid="59667d74-fb36-419b-ba70-8532263a1689">
+                        <field name="title">Brand info</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <area name="column-3">
+                    <options>
+                        <field name="htmltag">
+                            <value>section</value>
+                        </field>
+                    </options>
+                    <content-ref source="ece-auto-gen" sourceid="d742baee-c8f9-4b27-a26c-f7ccfb265c39">
+                        <field name="title">Heading - Menu</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                    <group name="wrapperGroup" label="Wrapper">
+                        <area name="wrapperGroup-area">
+                            <content-ref source="ece-auto-gen" sourceid="a3e008e0-f7c6-470c-9f8e-52a7284e0f01">
+                                <field name="title">Menu item - Home</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                            <content-ref source="ece-auto-gen" sourceid="7c78b7b6-e439-4933-8a73-46ea9a75fc0f">
+                                <field name="title">Menu item - News</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                            <content-ref source="ece-auto-gen" sourceid="35885a76-5d4f-41f4-bd67-2734ddd5748c">
+                                <field name="title">Menu item - Sports</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                            <content-ref source="ece-auto-gen" sourceid="14d4a86b-c914-44fa-bb87-4ad36616dafe">
+                                <field name="title">Menu item - Video</field>
+                                <options>
+                                    <field name="loadingpolicy">
+                                        <value>onPage</value>
+                                    </field>
+                                </options>
+                            </content-ref>
+                        </area>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                            <field name="htmltag">
+                                <value>div</value>
+                            </field>
+                            <field name="customstyleclass">list-group</field>
+                        </options>
+                    </group>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="split">
+                        <value>4_4_4</value>
+                    </field>
+                </options>
+            </group>
+            <content-ref source="ece-auto-gen" sourceid="0767677f-988f-4cca-88b0-860ba6de4acf">
+                <field name="title">Ruler</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <group name="split-2" label="Two column">
+                <area name="column-1">
+                    <content-ref source="ece-auto-gen" sourceid="396434a6-c0fb-4738-9b85-4bfe95c826b3">
+                        <field name="title">Dummy copyright</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <area name="column-2">
+                    <content-ref source="ece-auto-gen" sourceid="c1bf99d3-c383-4118-8828-624169c30bcd">
+                        <field name="title">Dummy menu</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                    <field name="htmltag">
+                        <value>div</value>
+                    </field>
+                    <field name="split">
+                        <value>6_6</value>
+                    </field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>

@@ -3,12 +3,6 @@
     <content source="ece-auto-gen" sourceid="b21350e8-5d11-4f6f-9418-656484a60374" type="widget_contentInfo" state="published">
         <section-ref unique-name="config.default.article.type.story"/>
         <section-ref unique-name="config.default.article" home-section="true"/>
-        <relation type="related" source="ece-auto-gen" sourceid="87a804ec-b6b9-4b00-a275-e35b3e3de56a">
-            <field name="title">lead text inline</field>
-        </relation>
-        <relation type="related" source="ece-auto-gen" sourceid="87a804ec-b6b9-4b00-a275-e35b3e3de56a">
-            <field name="title">lead text inline</field>
-        </relation>
         <priority value="0"/>
         <field name="title">Last modified</field>
         <field name="information">
