@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section unique-name="overlay.cnn.config.default.master.recommended" source="ece-auto-gen" sourceid="c8151eb9-e75a-4e5b-806d-5f1f891ef492" name="&lt;cnn&gt; Master template - Recommended" mirror-source="false">
+        <parent source="ece-auto-gen" sourceid="0fc9e374-b5c1-4638-85e2-3857a4572b0a" unique-name="config.default.master.recommended"/>
+        <unique-name>overlay.cnn.config.default.master.recommended</unique-name>
+        <directory>overlay_cnn_config_default_master_recommended</directory>
+        <section-layout>defaultsection</section-layout>
+        <article-layout>defaultarticle</article-layout>
+    </section>
+</escenic>

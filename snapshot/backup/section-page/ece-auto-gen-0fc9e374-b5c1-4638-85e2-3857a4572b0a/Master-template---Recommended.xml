@@ -2,6 +2,14 @@
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section-page source="ece-auto-gen" sourceid="0fc9e374-b5c1-4638-85e2-3857a4572b0a" unique-name="config.default.master.recommended" name="Master template - Recommended" layout-name="master-config" action="remove">
         <area name="master-config-area">
+            <options>
+                <field name="loadingpolicy">
+                    <value>onPage</value>
+                </field>
+                <field name="htmltag">
+                    <value>div</value>
+                </field>
+            </options>
             <group name="tabbingGroup" label="Tabs">
                 <area name="tabbingGroup-area">
                     <group name="tabPaneGroup" label="Pane">
@@ -14,6 +22,7 @@
                             <field name="htmltag">
                                 <value>div</value>
                             </field>
+                            <field name="referable">false</field>
                             <field name="title">Recommended</field>
                         </options>
                     </group>
@@ -27,6 +36,7 @@
                             <field name="htmltag">
                                 <value>div</value>
                             </field>
+                            <field name="referable">false</field>
                             <field name="title">Most read</field>
                         </options>
                     </group>
@@ -40,6 +50,7 @@
                             <field name="htmltag">
                                 <value>div</value>
                             </field>
+                            <field name="referable">false</field>
                             <field name="title">Most shared</field>
                         </options>
                     </group>
@@ -49,9 +60,11 @@
                         <value>onPage</value>
                     </field>
                     <field name="changeurl">true</field>
+                    <field name="com.escenic.color">#ccccff</field>
                     <field name="htmltag">
                         <value>section</value>
                     </field>
+                    <field name="referable">true</field>
                     <field name="tabstyle">
                         <value>tabs</value>
                     </field>

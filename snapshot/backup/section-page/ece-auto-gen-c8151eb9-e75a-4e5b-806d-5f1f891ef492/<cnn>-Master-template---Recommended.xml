@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <section-page source="ece-auto-gen" sourceid="c8151eb9-e75a-4e5b-806d-5f1f891ef492" unique-name="overlay.cnn.config.default.master.recommended" name="&lt;cnn&gt; Master template - Recommended" layout-name="overlay-config" action="remove">
+        <area name="overlay-config-area">
+            <group name="groupOverlay" label="Tabs">
+                <area name="groupOverlay-area">
+                    <content-ref source="ece-auto-gen" sourceid="66ba6632-8514-477f-bb17-5a2cfaa3b24a">
+                        <field name="title">view</field>
+                        <options>
+                            <field name="loadingpolicy">
+                                <value>onPage</value>
+                            </field>
+                        </options>
+                    </content-ref>
+                </area>
+                <options>
+                    <field name="referredgroup">Tabs</field>
+                </options>
+            </group>
+        </area>
+    </section-page>
+</escenic>
