@@ -4,14 +4,7 @@
         <section-ref unique-name="config.default.tag.main.football"/>
         <section-ref unique-name="config.default.tag" home-section="true"/>
         <relation type="datasourceRelation" source="ece-auto-gen" sourceid="c66948fb-c432-413e-85ed-a965e20507f6"/>
-        <relation type="viewRelation" source="ece-auto-gen" sourceid="3694d423-9137-4cef-926f-20e775614fb6">
-            <field name="selectortype">
-                <value>position</value>
-            </field>
-            <field name="position">
-                <value>odd</value>
-            </field>
-        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="3694d423-9137-4cef-926f-20e775614fb6"/>
         <priority value="0"/>
         <field name="title">More tagged items</field>
         <field name="view">

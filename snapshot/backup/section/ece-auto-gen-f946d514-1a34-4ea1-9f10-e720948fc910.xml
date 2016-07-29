@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <section unique-name="config" source="ece-auto-gen" sourceid="f946d514-1a34-4ea1-9f10-e720948fc910" name="Config" mirror-source="false">
-        <parent source="ece-auto-gen" sourceid="a24f4ef8-7209-438a-867a-7c08f0a1b052" unique-name="ece_frontpage"/>
+        <parent source="ece-auto-gen" sourceid="275ac8ae-b567-48bc-bc6d-a03182b891ff" unique-name="ece_frontpage"/>
         <unique-name>config</unique-name>
         <directory>config</directory>
         <section-layout>defaultsection</section-layout>

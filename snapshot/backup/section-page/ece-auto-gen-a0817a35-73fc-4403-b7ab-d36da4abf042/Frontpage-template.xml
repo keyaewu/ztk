@@ -30,6 +30,22 @@
                     <value>header</value>
                 </field>
             </options>
+            <content-ref source="ece-auto-gen" sourceid="48cdd380-6527-40ec-bc94-dcb6bbb5c2c7">
+                <field name="title">heel</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
+            <content-ref source="ece-auto-gen" sourceid="f75579f6-3575-4b2a-a867-1a34d25af664">
+                <field name="title">bar code</field>
+                <options>
+                    <field name="loadingpolicy">
+                        <value>onPage</value>
+                    </field>
+                </options>
+            </content-ref>
             <group name="row" label="Row">
                 <area name="row-area">
                     <content-ref source="ece-auto-gen" sourceid="3a378827-24d9-472a-a43d-3531ac3b4bfc">

@@ -2,22 +2,8 @@
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <content source="ece-auto-gen" sourceid="f92232f7-ab57-4d00-bdd2-d0d96f37f14d" type="widget_viewPicker" state="published">
         <section-ref unique-name="config.default.section.international" home-section="true"/>
-        <relation type="viewRelation" source="ece-auto-gen" sourceid="e329535c-93a0-4b42-ab69-2fe48b5fa1d6">
-            <field name="selectortype">
-                <value>position</value>
-            </field>
-            <field name="position">
-                <value>odd</value>
-            </field>
-        </relation>
-        <relation type="viewRelation" source="ece-auto-gen" sourceid="fb679e1f-1b6d-4972-82fd-fa3d5b3cdc70">
-            <field name="selectortype">
-                <value>position</value>
-            </field>
-            <field name="position">
-                <value>even</value>
-            </field>
-        </relation>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="e329535c-93a0-4b42-ab69-2fe48b5fa1d6"/>
+        <relation type="viewRelation" source="ece-auto-gen" sourceid="fb679e1f-1b6d-4972-82fd-fa3d5b3cdc70"/>
         <priority value="0"/>
         <field name="title">View Picker</field>
         <field name="view">

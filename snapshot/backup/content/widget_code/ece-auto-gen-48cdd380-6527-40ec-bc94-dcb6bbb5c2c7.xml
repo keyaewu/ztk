@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="48cdd380-6527-40ec-bc94-dcb6bbb5c2c7" type="widget_code" state="published">
+        <section-ref unique-name="config.default.section.ece_frontpage" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">heel</field>
+        <field name="code">&lt;h1&gt;hello &lt;/h1&gt;</field>
+        <field name="enableesi">false</field>
+    </content>
+</escenic>
