@@ -6,6 +6,9 @@
         <relation type="related" source="ece-auto-gen" sourceid="87a804ec-b6b9-4b00-a275-e35b3e3de56a">
             <field name="title">lead text inline</field>
         </relation>
+        <relation type="related" source="ece-auto-gen" sourceid="87a804ec-b6b9-4b00-a275-e35b3e3de56a">
+            <field name="title">lead text inline</field>
+        </relation>
         <priority value="0"/>
         <field name="title">Last modified</field>
         <field name="information">

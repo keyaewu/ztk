@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
     <content source="ece-auto-gen" sourceid="672c5a50-d307-4d68-becf-0d00e014db11" type="widget_viewPicker" state="published">
+        <section-ref unique-name="overlay.qsite.config.default.section.international"/>
         <section-ref unique-name="config.default.article.type.picture" home-section="true"/>
         <relation type="viewRelation" source="ece-auto-gen" sourceid="ad6e2749-f519-4ce8-96c5-8b627ed864c8"/>
         <priority value="0"/>
