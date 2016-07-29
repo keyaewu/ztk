@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<escenic version="2.0" xmlns="http://xmlns.escenic.com/2009/import">
+    <content source="ece-auto-gen" sourceid="ad6e2749-f519-4ce8-96c5-8b627ed864c8" type="widget_teaserView" state="published">
+        <section-ref unique-name="config.default.article.type.picture" home-section="true"/>
+        <priority value="0"/>
+        <field name="title">teaser view</field>
+        <field name="widgetproperties">element.markup.class.picture-caption=picture-caption
+element.markup.tag.share=div
+element.markup.class.updatealert=updatealert
+element.markup.tag.leadtext=p
+element.markup.textsize.text-big=text-big
+element.markup.class.subtitle=subtitle
+element.markup.tag.updatealert=strong
+element.markup.tag.relatedelements=ul
+element.markup.textsize.kicker=text-smaller
+element.markup.tag.comments=p
+element.markup.class.overline=overline
+element.markup.tag.summary=p
+element.markup.class.slideshow=slideshow
+element.markup.class.readmore=readmore
+element.markup.class.kicker=kicker
+element.markup.tag.timestamp=strong
+element.markup.tag.author=p
+element.format.date.sdf.lastModifiedDate=dd MMM yyyy HH:mm zz
+element.markup.tag.shorttitle=h4
+element.markup.tag.picture=div
+element.markup.tag.authorPhoto=div
+element.markup.tag.subtitle=p
+element.format.date.sdf.publishedDate=dd MMM yyyy HH:mm zz
+element.media.audioPlayer=
+element.markup.class.authorPhoto=author-photo
+element.markup.class.title=title
+element.markup.class.leadtext=leadtext
+element.format.date.sdf.createdDate=dd MMM yyyy HH:mm zz
+element.markup.class.summary=summary
+element.markup.class.relatedelements=list-unstyled
+element.markup.class.shorttitle=shorttitle
+element.markup.tag.overline=p
+element.markup.tag.slideshow=div
+element.markup.textsize.text-small=text-small
+element.markup.class.author=author
+element.markup.class.picture=picture
+element.authorPhoto.link.show=true
+element.media.videoPlayer=
+element.markup.tag.readmore=p
+element.markup.tag.title=h4
+element.markup.textsize.text-biggest=text-biggest
+element.markup.textsize.text-smaller=text-smaller
+element.markup.class.timestamp=timestamp
+element.markup.textsize.text-bigger=text-bigger
+element.markup.class.share=share
+element.markup.inline.close-link-style=inline-close
+element.markup.textsize.text-smallest=text-smallest
+element.markup.tag.kicker=p
+</field>
+    </content>
+</escenic>
